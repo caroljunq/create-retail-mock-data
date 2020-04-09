@@ -1,0 +1,26 @@
+{
+  "_comment": "You have to config the number for each item. Categories is fixed, do not change it.",
+  "n_cores": "2",
+  "customers": {
+    "total": 100,
+    "outfile": "customers.csv",
+    "min_age": 18,
+    "max_age": 72,
+    "joined_start_date": "2016-1-1 00:00:00",
+    "joined_end_date": "2018-12-31 23:59:59"
+  },
+  "products": 100,
+  "categories": 5,
+  "campaigns": 10,
+  "payments": 10,
+  "product": 200,
+  "shippers": 10,
+  "suppliers": 10,
+  "language": "en",
+  "en": {
+    "genders": ["Female","Male","Fluid","Others"]
+  },
+  "pt-br":{
+    "genders": ["Feminino","Masculino","Fluido","Outros"]
+  }
+}

@@ -8,6 +8,10 @@ In construction...
 # config.json
 In this file .....
 
+# Sequence to generate files
+1- Customers or Suppliers or Shippers
+2- 
+
 # Required Python Modules
 - mimesis --> https://mimesis.readthedocs.io/
 - numpy

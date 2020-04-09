@@ -14,8 +14,14 @@
   "campaigns": 10,
   "payments": 10,
   "product": 200,
-  "shippers": 10,
-  "suppliers": 10,
+  "shippers": {
+    "total": 10,
+    "outfile": "shippers.csv"
+  },
+  "suppliers": {
+    "total": 10,
+    "outfile": "suppliers.csv"
+  },
   "language": "en",
   "en": {
     "genders": ["Female","Male","Fluid","Others"]

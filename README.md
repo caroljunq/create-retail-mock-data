@@ -14,6 +14,8 @@ Don't forget to describe each field and its possible values.
 2- Products
 - Don't forget to describe the importance to use the same config.json for all generators (change in the paremeters)
 
+- joined date customers and orders
+
 # Required Python Modules
 - mimesis --> https://mimesis.readthedocs.io/
 - numpy
@@ -26,3 +28,5 @@ Don't forget to describe each field and its possible values.
 
 # Data Schema
 - types and fields of each table
+
+

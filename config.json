@@ -20,7 +20,8 @@
     "outfile": "payments.csv"
   },
   "products": {
-    "total": 10,
+    "index_start": 1000,
+    "total": 20,
     "outfile": "products.csv"
   },
   "shippers": {

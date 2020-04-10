@@ -3,17 +3,26 @@ import json
 import common_functions
 import random
 import numpy as np
+import multiprocessing as mp
+import pandas as pd
 
 # reading config
 with open('../config.json') as data:
     config = json.load(data)
 
 # setting up variables
+machine_cores = int(config["n_cores"])
+header_in_csv = True if config["header_in_csv"] == "True" else False
 out_path = config["output_path_files"]
+index_product_start = config["products"]["index_start"]
 outfile = config["products"]["outfile"]
 outsize = config["products"]["total"]
 language = config["language"]
 suppliers_id_range = range(1,config["suppliers"]["total"] + 1)
+
+# data processing config
+amounts_cpu = config["data_processing"]["amount_in_cpu"]
+auto_batch = True if config["data_processing"]["auto_batch_based_in_cpu"] == "True" else False
 
 # loading mocking data type
 food = mimesis.Food(language)
@@ -25,12 +34,19 @@ code = mimesis.Code(language)
 categories_prob = common_functions.random_probabilities(1,5)
 suppliers_prob  = common_functions.random_probabilities(1,len(suppliers_id_range))
 
+products = []
 
-# generating products
-with open(out_path + outfile, 'w') as csvfile:
-    for i in range(outsize):
-        product_id = i + 1
-        print(i)
+def generate_products(amount,index_start):
+    # generates products' info
+    # amount: number of products to generate
+    # index_start: from what index starts
+
+    global products
+
+    results = set()
+
+    for i in range(amount):
+        product_id = index_start + i 
         category_id = np.random.choice([1,2,3,4,5], p=categories_prob)
         # dish category
         if category_id == 1:
@@ -53,6 +69,57 @@ with open(out_path + outfile, 'w') as csvfile:
         description = "food food food food food food food food food food food food food food food food food"
         supplier_id = np.random.choice(suppliers_id_range, p=suppliers_prob)
         barcode = code.ean()
-        csvfile.write(f"{product_id},{name},{category_id},{weight},{price},{description},{supplier_id},{barcode})\n")
+
+        results.add((product_id,name,category_id,weight,price,description,supplier_id,barcode))
+
+    return results
+
+def collect_products(results):
+    # collect products info and add to the array of products
+
+    global products
+
+    products = products + list(results)
+
+    # print the process
+    print("{} processed".format(len(products)))
+
+
+# setting the number of cores used by the process, aka how many processes will run in parallel 
+print("Initializing using {} cores".format(machine_cores))
+pool = mp.Pool(machine_cores)
+
+# numbers of generated items in each loop
+amounts = int(outsize/machine_cores) if auto_batch else amounts_cpu
+number_of_loops = int(outsize/amounts)
+residue = outsize - amounts * number_of_loops
+
+# first generating residue
+pool.apply_async(generate_products, args=(residue, index_product_start), callback=collect_products)
+
+# generating products in  parallel 
+for i in range(number_of_loops):
+    pool.apply_async(generate_products, args=(amounts, (i * amounts) + residue + index_product_start), callback=collect_products)
+
+# closing pool
+pool.close()
+pool.join()
+
+# creating a data frame with the final results
+df = pd.DataFrame(products)
+
+# columns names aka header
+columns_names = ["product_id","name","category_id","weight","price","description","supplier_id","barcode"]
+
+print("Saving file...")
+# Defining if header will be included
+header = False if header_in_csv == False else columns_names
+
+# writing file
+f = df.to_csv(out_path + outfile,header=header,sep=",",index=False)
+print("File was saved at path {}".format(out_path + outfile))
+
+
+        
 
      

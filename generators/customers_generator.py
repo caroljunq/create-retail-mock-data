@@ -5,7 +5,7 @@ import random
 import numpy as np
 
 # reading config
-with open('config.json') as data:
+with open('../config.json') as data:
     config = json.load(data)
 
 # setting up variables

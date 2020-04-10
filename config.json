@@ -10,12 +10,13 @@
     "joined_start_date": "2016-1-1 00:00:00",
     "joined_end_date": "2018-12-31 23:59:59"
   },
-  "products": 100,
   "campaigns": 10,
   "payments": {
     "outfile": "payments.csv"
   },
-  "product": 200,
+  "products": {
+    "total": 1000
+  },
   "shippers": {
     "total": 10,
     "outfile": "shippers.csv"
@@ -27,7 +28,7 @@
     "total": 10,
     "outfile": "suppliers.csv"
   },
-  "language": "en",
+  "language": "pt-br",
   "en": {
     "genders": ["Female","Male","Fluid","Others"],
     "categories": ["dish","drink","fruit","spices","vegetable"],

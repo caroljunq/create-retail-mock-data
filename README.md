@@ -9,8 +9,8 @@ In construction...
 In this file .....
 
 # Sequence to generate files
-1- Customers or Suppliers or Shippers or Categories or Payments
-2- 
+1- Customers,Suppliers,Shippers,Categories, and Payments
+2- Products
 
 # Required Python Modules
 - mimesis --> https://mimesis.readthedocs.io/

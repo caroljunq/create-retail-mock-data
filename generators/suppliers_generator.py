@@ -29,12 +29,12 @@ with open(out_path + outfile, 'w') as csvfile:
         print(id)
         supplier_id = id
         phone_number = person.telephone()
-        responsible_name = person.full_name().replace(",","")
-        title = business.company().replace(",","")
+        responsible_name = person.full_name().replace(",","") # removing possible commas
+        title = business.company().replace(",","") # removing possible commas
         email = person.email()
         postalcode = str(address.postal_code())
         country_id = np.random.choice(list(range(1,245 + 1)), p=country_prob)
-        city = address.city().replace(',','')
-        state = address.state().replace(',','')
+        city = address.city().replace(',','') # removing possible commas
+        state = address.state().replace(',','') # removing possible commas
         register_date = dates.formatted_datetime('%Y-%m-%d %H:%M:00')
         csvfile.write(f"{supplier_id},{phone_number},{responsible_name},{title},{email},{country_id},{city},{state},{register_date}\n")

@@ -15,7 +15,8 @@
     "outfile": "payments.csv"
   },
   "products": {
-    "total": 1000
+    "total": 1000,
+    "outfile": "products.csv"
   },
   "shippers": {
     "total": 10,
@@ -31,12 +32,10 @@
   "language": "pt-br",
   "en": {
     "genders": ["Female","Male","Fluid","Others"],
-    "categories": ["dish","drink","fruit","spices","vegetable"],
     "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"]
   },
   "pt-br":{
     "genders": ["Feminino","Masculino","Fluido","Outros"],
-    "categories": ["prato","bebida","fruta","tempero","vegetal"],
     "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"]
   }
 }

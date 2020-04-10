@@ -19,3 +19,6 @@ In this file .....
 - time
 - random
 - json
+
+# Data Schema
+- types and fields of each table

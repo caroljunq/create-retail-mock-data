@@ -37,7 +37,7 @@ with open(out_path + outfile, 'w') as csvfile:
         id = i + 1
         print(id)
         customer_id = id
-        customer_name = person.full_name().replace(',','')
+        customer_name = person.full_name().replace(',','') # removing possible commas
         email = person.email()
         country_id = np.random.choice(list(range(1,245 + 1)), p=country_prob)
         phoneNumber = person.telephone()

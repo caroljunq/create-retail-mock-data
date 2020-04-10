@@ -1,13 +1,16 @@
 {
-  "_comment": "You have to config the number for each item.",
-  "n_cores": 3,
+  "n_cores": 2,
   "output_path_files": "../results/",
   "header_in_csv": "False",
+  "data_processing":{
+    "amount_in_cpu": 1000,
+    "auto_batch_based_in_cpu":"True"
+  },
   "customers": {
-    "index_start": 554,
-    "total": 1100,
+    "index_start": 1,
+    "total": 1000,
     "outfile": "customers.csv",
-    "min_age": 21,
+    "min_age": 18,
     "max_age": 72,
     "joined_start_date": "2016-1-1 00:00:00",
     "joined_end_date": "2018-12-31 23:59:59"
@@ -31,7 +34,7 @@
     "total": 10,
     "outfile": "suppliers.csv"
   },
-  "language": "pt-br",
+  "language": "en",
   "en": {
     "genders": ["Female","Male","Fluid","Others"],
     "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"]

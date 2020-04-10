@@ -12,7 +12,7 @@ with open('../config.json') as data:
 
 # setting up variables
 machine_cores = int(config["n_cores"])
-header_in_csv = config["header_in_csv"] if config["header_in_csv"] == "True" else False
+header_in_csv = True if config["header_in_csv"] == "True" else False
 out_path = config["output_path_files"]
 index_customer_start = config["customers"]["index_start"]
 outfile = config["customers"]["outfile"]
@@ -23,6 +23,10 @@ joined_start_date = config["customers"]["joined_start_date"]
 joined_end_date = config["customers"]["joined_end_date"]
 language = config["language"]
 genders = config[language]["genders"]
+
+# data processing config
+amounts_cpu = config["data_processing"]["amount_in_cpu"]
+auto_batch = True if config["data_processing"]["auto_batch_based_in_cpu"] == "True" else False
 
 # loading mocking data type
 business = mimesis.Business(language)
@@ -40,11 +44,11 @@ gender_prob = common_functions.random_probabilities(1,len(genders))
 customers = []
 
 def generate_customers(amount,index_start):
- 
-    global customers
     # generates customers' info
     # amount: number of customer to generate
     # index_start: from what index starts
+    global customers
+
     results = set()
     for i in range(amount):
         customer_id = index_start + i 
@@ -76,7 +80,7 @@ print("Initializing using {} cores".format(machine_cores))
 pool = mp.Pool(machine_cores)
 
 # numbers of generated items in each loop
-amounts = int(outsize/machine_cores)
+amounts = int(outsize/machine_cores) if auto_batch else amounts_cpu
 number_of_loops = int(outsize/amounts)
 residue = outsize - amounts * number_of_loops
 
@@ -104,6 +108,4 @@ header = False if header_in_csv == False else columns_names
 # writing file
 f = df.to_csv(out_path + outfile,header=header,sep=",",index=False)
 print("File was saved at path {}".format(out_path + outfile))
-
-
 

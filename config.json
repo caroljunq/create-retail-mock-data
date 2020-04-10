@@ -24,7 +24,8 @@
     "outfile": "products.csv"
   },
   "shippers": {
-    "total": 10,
+    "index_start": 1,
+    "total": 100,
     "outfile": "shippers.csv"
   },
   "categories": {

@@ -12,6 +12,7 @@ Don't forget to describe each field and its possible values.
 # Sequence to generate files
 1- Customers,Suppliers,Shippers,Categories, Payments and Campaigns
 2- Products
+- Don't forget to describe the importance to use the same config.json for all generators (change in the paremeters)
 
 # Required Python Modules
 - mimesis --> https://mimesis.readthedocs.io/

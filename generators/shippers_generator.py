@@ -8,8 +8,9 @@ with open('config.json') as data:
     config = json.load(data)
 
 # setting up variables
-outfile = config["suppliers"]["outfile"]
-outsize = config["suppliers"]["total"]
+out_path = config["output_path_files"]
+outfile = config["shippers"]["outfile"]
+outsize = config["shippers"]["total"]
 language = config["language"]
  
 # loading mocking data type
@@ -21,8 +22,8 @@ person = mimesis.Person(language)
 # 245 countries
 country_prob = common_functions.random_probabilities(1,245)
 
-# generating customers
-with open("./results/" + outfile, 'w') as csvfile:
+# generating shippers
+with open(out_path + outfile, 'w') as csvfile:
     for i in range(outsize):
         id = i + 1
         print(id)

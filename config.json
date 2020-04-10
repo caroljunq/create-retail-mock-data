@@ -1,6 +1,7 @@
 {
   "_comment": "You have to config the number for each item. Categories is fixed, do not change it.",
   "n_cores": "2",
+  "output_path_files": "../results/",
   "customers": {
     "total": 100,
     "outfile": "customers.csv",
@@ -10,13 +11,17 @@
     "joined_end_date": "2018-12-31 23:59:59"
   },
   "products": 100,
-  "categories": 5,
   "campaigns": 10,
-  "payments": 10,
+  "payments": {
+    "outfile": "payments.csv"
+  },
   "product": 200,
   "shippers": {
     "total": 10,
     "outfile": "shippers.csv"
+  },
+  "categories": {
+    "outfile": "prod_categories.csv"
   },
   "suppliers": {
     "total": 10,
@@ -24,9 +29,13 @@
   },
   "language": "en",
   "en": {
-    "genders": ["Female","Male","Fluid","Others"]
+    "genders": ["Female","Male","Fluid","Others"],
+    "categories": ["dish","drink","fruit","spices","vegetable"],
+    "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"]
   },
   "pt-br":{
-    "genders": ["Feminino","Masculino","Fluido","Outros"]
+    "genders": ["Feminino","Masculino","Fluido","Outros"],
+    "categories": ["prato","bebida","fruta","tempero","vegetal"],
+    "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"]
   }
 }

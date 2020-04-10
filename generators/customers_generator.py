@@ -9,6 +9,7 @@ with open('config.json') as data:
     config = json.load(data)
 
 # setting up variables
+out_path = config["output_path_files"]
 outfile = config["customers"]["outfile"]
 outsize = config["customers"]["total"]
 max_age = config["customers"]["max_age"]
@@ -31,7 +32,7 @@ ages_probab  = common_functions.random_probabilities(min_age, max_age)
 gender_prob = common_functions.random_probabilities(1,len(genders))
 
 # generating customers
-with open("./results/" + outfile, 'w') as csvfile:
+with open(out_path + outfile, 'w') as csvfile:
     for i in range(outsize):
         id = i + 1
         print(id)

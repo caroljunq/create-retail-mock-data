@@ -9,7 +9,7 @@ In construction...
 In this file .....
 
 # Sequence to generate files
-1- Customers or Suppliers or Shippers
+1- Customers or Suppliers or Shippers or Categories or Payments
 2- 
 
 # Required Python Modules

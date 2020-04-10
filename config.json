@@ -32,7 +32,8 @@
     "outfile": "prod_categories.csv"
   },
   "suppliers": {
-    "total": 10,
+    "index_start": 1,
+    "total": 100,
     "outfile": "suppliers.csv"
   },
   "language": "en",

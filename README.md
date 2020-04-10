@@ -7,9 +7,10 @@ In construction...
 
 # config.json
 In this file .....
+Don't forget to describe each field and its possible values.
 
 # Sequence to generate files
-1- Customers,Suppliers,Shippers,Categories, and Payments
+1- Customers,Suppliers,Shippers,Categories, Payments and Campaigns
 2- Products
 
 # Required Python Modules
@@ -19,6 +20,8 @@ In this file .....
 - time
 - random
 - json
+- multiprocessing
+- pandas
 
 # Data Schema
 - types and fields of each table

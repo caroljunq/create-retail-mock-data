@@ -1,9 +1,11 @@
 {
-  "_comment": "You have to config the number for each item. Categories is fixed, do not change it.",
-  "n_cores": "2",
+  "_comment": "You have to config the number for each item.",
+  "n_cores": 3,
   "output_path_files": "../results/",
+  "header_in_csv": "False",
   "customers": {
-    "total": 100,
+    "index_start": 1,
+    "total": 1113,
     "outfile": "customers.csv",
     "min_age": 18,
     "max_age": 72,
@@ -15,7 +17,7 @@
     "outfile": "payments.csv"
   },
   "products": {
-    "total": 1000,
+    "total": 10,
     "outfile": "products.csv"
   },
   "shippers": {

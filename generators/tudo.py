@@ -5,7 +5,9 @@ import random
 import numpy as np
 import multiprocessing as mp
 import pandas as pd
+import time
 
+start_time = time.time()
 # reading config
 with open('../config.json') as data:
     config = json.load(data)
@@ -38,6 +40,8 @@ gender_prob = common_functions.random_probabilities(1,len(genders))
 
 # Global customers array
 customers = []
+
+number_cores = mp.cpu_count()
 
 def generate_customers(amount,index_start):
  
@@ -72,11 +76,11 @@ def collect_customers(results):
     print("{} processed".format(len(customers)))
 
 # setting the number of cores used by the process, aka how many processes will run in parallel 
-print("Initializing using {} cores".format(machine_cores))
+print("Initializing using {} cores".format(number_cores))
 pool = mp.Pool(machine_cores)
 
 # numbers of generated items in each loop
-amounts = int(outsize/machine_cores)
+amounts = int(outsize/number_cores)
 number_of_loops = int(outsize/amounts)
 residue = outsize - amounts * number_of_loops
 
@@ -104,6 +108,8 @@ header = False if header_in_csv == False else columns_names
 # writing file
 f = df.to_csv(out_path + outfile,header=header,sep=",",index=False)
 print("File was saved at path {}".format(out_path + outfile))
+print("--- %s seconds ---" % (time.time() - start_time))
+
 
 
 

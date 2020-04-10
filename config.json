@@ -4,10 +4,10 @@
   "output_path_files": "../results/",
   "header_in_csv": "False",
   "customers": {
-    "index_start": 1,
-    "total": 1113,
+    "index_start": 554,
+    "total": 1100,
     "outfile": "customers.csv",
-    "min_age": 18,
+    "min_age": 21,
     "max_age": 72,
     "joined_start_date": "2016-1-1 00:00:00",
     "joined_end_date": "2018-12-31 23:59:59"

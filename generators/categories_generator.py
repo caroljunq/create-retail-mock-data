@@ -3,6 +3,7 @@ import mimesis
 import json
 import common_functions
 import numpy as np
+import pandas as pd
 
 # reading config
 with open('../config.json') as data:
@@ -11,7 +12,7 @@ with open('../config.json') as data:
 # setting up variables
 out_path = config["output_path_files"]
 outfile = config["categories"]["outfile"]
-
+header_in_csv = True if config["header_in_csv"] == "True" else False
 language = config["language"]
 
 categories = {
@@ -21,10 +22,24 @@ categories = {
 
 outsize = len(categories[language])
 
-with open(out_path + outfile, 'w') as csvfile:
-    for i in range(outsize):
-        print(i)
-        category_id = i + 1
-        csvfile.write(f"{category_id},{categories[language][i]},dummy dummy dummy dummy\n")
+catgs = []
 
+for i in range(outsize):
+    print(i + 1,"processed")
+    category_id = i + 1
+    catgs.append((category_id,categories[language][i],"dummy dummy dummy dummy"))
+
+# creating a data frame with the final results
+df = pd.DataFrame(catgs)
+
+# columns names aka header
+columns_names = ["category_id","title","description"]
+
+print("Saving file...")
+# Defining if header will be included
+header = False if header_in_csv == False else columns_names
+
+# writing file
+f = df.to_csv(out_path + outfile,header=header,sep=",",index=False)
+print("File was saved at path {}".format(out_path + outfile))
 

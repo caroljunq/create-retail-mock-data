@@ -1,8 +1,5 @@
 # The categories are fixed, do not change them.
-import mimesis
 import json
-import common_functions
-import numpy as np
 import pandas as pd
 
 # reading config

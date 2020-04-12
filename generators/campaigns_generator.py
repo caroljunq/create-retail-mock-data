@@ -1,8 +1,5 @@
 # This is dataset is composed by default campaigns, but you can change or add/remove them in the config.
-import mimesis
 import json
-import common_functions
-import numpy as np
 import pandas as pd
 import random
 

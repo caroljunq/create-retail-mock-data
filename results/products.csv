@@ -1,20 +1,21 @@
-1019,Havana Cooler,2,253.80822914682,1.6137817623025708,food food food food food food food food food food food food food food food food food,94,4938085363368
-1013,Kohlrabi Greens,5,266.5075629436527,7.897339625112493,food food food food food food food food food food food food food food food food food,75,36045944
-1018,Water Chestnut,5,252.55963327461373,3.8777706361457898,food food food food food food food food food food food food food food food food food,68,9096384170194
-1016,Yams,5,696.3116193546807,7.554664825691647,food food food food food food food food food food food food food food food food food,47,62035232
-1015,Pentadiplandra,3,156.49465748967106,6.314876632390827,food food food food food food food food food food food food food food food food food,79,3788157709840
-1012,Cicely sweet cicely,4,337.1540366955428,5.019759037497133,food food food food food food food food food food food food food food food food food,38,1225275312415
-1011,Lychee,3,447.4113957637813,1.2754421664476723,food food food food food food food food food food food food food food food food food,20,24654169
-1010,Apple Martini or Appletini,2,378.3980312646825,3.937333903632524,food food food food food food food food food food food food food food food food food,85,89157027
-1017,Bog bilberry,3,365.2565307377791,1.9330218744311811,food food food food food food food food food food food food food food food food food,94,05539722
-1014,Goji,3,82.2518349843936,4.741225932643623,food food food food food food food food food food food food food food food food food,12,1834538352429
-1008,Water Chestnut,5,895.047187328735,4.662562529463694,food food food food food food food food food food food food food food food food food,68,9096384170194
-1001,Lychee,3,303.3065154263753,1.8215654141202986,food food food food food food food food food food food food food food food food food,20,24654169
-1002,Cicely sweet cicely,4,676.7187837429257,0.24496121511815572,food food food food food food food food food food food food food food food food food,38,1225275312415
-1003,Kohlrabi Greens,5,581.9600177776695,0.40392073581346666,food food food food food food food food food food food food food food food food food,75,36045944
-1006,Yams,5,827.0931428624402,0.7193175811990149,food food food food food food food food food food food food food food food food food,47,62035232
-1007,Bog bilberry,3,755.0644165342571,8.039644633892925,food food food food food food food food food food food food food food food food food,94,05539722
-1004,Goji,3,324.760739585225,1.4347880112054778,food food food food food food food food food food food food food food food food food,12,1834538352429
-1000,Apple Martini or Appletini,2,394.6056466255982,5.908772322977052,food food food food food food food food food food food food food food food food food,85,89157027
-1009,Havana Cooler,2,107.60812464174307,3.222848558218432,food food food food food food food food food food food food food food food food food,94,4938085363368
-1005,Pentadiplandra,3,877.6141833045812,2.7226268603180284,food food food food food food food food food food food food food food food food food,79,3788157709840
+product_id,name,category_id,weight,price,description,supplier_id,barcode
+1,Cunquate,3,177.0180178854146,7.376883086819259,food food food food food food food food food food food food food food food food food,6,70766399
+5,Tartare De Peixe,1,118.46309440240344,2.850085683732937,food food food food food food food food food food food food food food food food food,47,09135106
+4,Melo Abreu Especial,2,55.060053031463994,0.8337991259308408,food food food food food food food food food food food food food food food food food,31,47154243
+7,Zarco,2,720.4357799864789,7.009954637113173,food food food food food food food food food food food food food food food food food,93,51143943
+6,cherivia,5,237.47172468409084,9.54063206136649,food food food food food food food food food food food food food food food food food,32,75315501
+9,Tagus,2,491.4132513769086,2.3424898676222328,food food food food food food food food food food food food food food food food food,51,80532390
+8,Salsinha,4,998.3736755015416,9.297543514428137,food food food food food food food food food food food food food food food food food,14,36736918
+3,Batata,5,580.8125472657091,7.349507666611822,food food food food food food food food food food food food food food food food food,59,3055393093685
+10,Amora,3,953.5453210514178,5.011921548720958,food food food food food food food food food food food food food food food food food,91,60508499
+2,Queijo De Búfala,1,81.52906732422505,3.4595684905910407,food food food food food food food food food food food food food food food food food,17,0607318665805
+18,Salsinha,4,513.290653313805,2.2430291411654277,food food food food food food food food food food food food food food food food food,14,36736918
+16,cherivia,5,961.6687445978556,2.3770473964436754,food food food food food food food food food food food food food food food food food,32,75315501
+13,Batata,5,960.5559485139755,1.1063332905522327,food food food food food food food food food food food food food food food food food,59,3055393093685
+17,Zarco,2,96.95241621233485,2.3830008251692556,food food food food food food food food food food food food food food food food food,93,51143943
+11,Cunquate,3,437.0004826936571,1.7953808833819362,food food food food food food food food food food food food food food food food food,6,70766399
+15,Tartare De Peixe,1,140.46141781251808,0.3590701217605008,food food food food food food food food food food food food food food food food food,47,09135106
+12,Queijo De Búfala,1,439.2124595024217,8.06703408310934,food food food food food food food food food food food food food food food food food,17,0607318665805
+20,Amora,3,174.73033971594765,4.8714208115839694,food food food food food food food food food food food food food food food food food,91,60508499
+19,Tagus,2,684.9419124861226,4.071238759745585,food food food food food food food food food food food food food food food food food,51,80532390
+14,Melo Abreu Especial,2,794.7813996271125,2.722061329438489,food food food food food food food food food food food food food food food food food,31,47154243

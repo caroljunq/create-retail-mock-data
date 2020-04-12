@@ -100,7 +100,7 @@ pool.join()
 df = pd.DataFrame(customers)
 
 # columns names aka header
-columns_names = ["customer_id","customer_name","email","age","country_id","phoneNumber","gender","birthdate","date_joined","city","state","postalcode"]
+columns_names = ["customer_id","customer_name","email","age","country_id","phoneNumber","gender","birthdate","register_date","city","state","postalcode"]
 
 print("Saving file...")
 

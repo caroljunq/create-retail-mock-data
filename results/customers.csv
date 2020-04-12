@@ -1,101 +1,101 @@
-customer_id,customer_name,email,age,country_id,phoneNumber,gender,birthdate,date_joined,city,state,postalcode
-39,Haroldo Benedetti,aggression2063@yandex.com,33,147,+55-91 4444-4998,Feminino,2003-07-08 16:04:00,2016-07-24 03:01:34,Itapuã do Oeste,Amapá,08180-459
-25,Derick Delazare,cowhand1946@yandex.com,43,64,(61) 88458-4924,Masculino,2014-11-13 07:12:00,2016-09-04 08:56:19,Vila Valério,Maranhão,42865-816
-3,Georgeta McCune,acana2031@gmail.com,63,238,(48) 52089-6680,Feminino,2002-12-23 12:31:00,2017-07-12 23:23:45,Marapanim,Ceará,34749-987
-4,Ragendra Giobini,sourbellies1949@live.com,66,120,(56) 69499-8370,Outros,2007-07-09 14:13:00,2017-05-08 04:20:06,Cláudio,Ceará,75354-110
-47,Africano Albani,squirarchal1980@yandex.com,61,145,+55 (93) 1005-0399,Masculino,2029-10-19 09:51:00,2017-07-06 14:34:06,Itaberá,Tocantins,51969-507
-11,Eliete Reis,enrica1839@gmail.com,70,113,+55-21 5794-6796,Outros,2032-07-09 07:56:00,2016-05-30 03:10:29,Gararu,Mato Grosso do Sul,13268-532
-22,Graciosa Fachini,drainpipe1984@gmail.com,55,79,+55-91 9095-9818,Fluido,2008-08-19 00:41:00,2016-12-21 15:21:03,Terra Roxa,Ceará,99868-402
-48,Diza Capucho,kiwifruit1807@outlook.com,58,125,+55-91 0421-4273,Feminino,2017-03-06 16:27:00,2017-04-23 12:02:49,Diamantino,Goiás,67356-428
-31,Sadrudine Andreão,armadillo1885@yandex.com,46,203,(54) 40803-8238,Feminino,2007-11-26 06:18:00,2016-07-01 07:06:32,Filadélfia,Mato Grosso do Sul,64118-559
-23,Liseta Gaspar,gull2019@yandex.com,68,29,+55-91 5857-5310,Fluido,2022-11-19 03:31:00,2016-10-06 20:37:30,Juatuba,Sergipe,58448-030
-2,Gileade Lessa,cockled1872@gmail.com,68,175,+55 (83) 8486-7305,Masculino,2030-11-27 10:05:00,2017-02-26 04:08:09,São João do Oriente,Pernambuco,94068-092
-24,Ovídio de Albergaria,cutesy1849@gmail.com,46,178,+55-21 2941-2762,Outros,2001-09-30 22:31:00,2016-12-11 09:07:03,Santa Bárbara d'Oeste,Alagoas,71766-790
-9,Heldo Guidolini,auric1962@outlook.com,67,196,+55 (26) 6290-7570,Outros,2025-03-08 21:49:00,2017-10-22 03:31:00,Taquarivaí,Tocantins,44789-812
-33,Dulcineia Carvalhido,rajarshi2066@yahoo.com,23,57,+55-21 3768-9752,Outros,2005-05-18 05:46:00,2018-08-10 14:05:37,Capivari do Sul,Sergipe,80397-299
-17,Vicêncio Strozzi,recycled1853@yandex.com,45,39,(74) 25358-5977,Outros,2008-08-18 14:36:00,2017-12-13 23:58:29,Caparaó,Pernambuco,84541-211
-45,Feba Alvernaz,imboldening2021@gmail.com,44,70,+55-21 3563-7929,Fluido,2027-05-21 12:24:00,2016-01-14 06:15:02,Nazaré,Roraima,12505-114
-5,Rodolfo de Moraes,goalkeeping1949@yandex.com,29,20,+55 (51) 4363-5132,Feminino,2013-04-15 18:19:00,2018-08-08 01:29:22,Caeté,Rondônia,83491-627
-14,Idália Guimarães,kingliest2034@yahoo.com,20,102,+55 (62) 8256-2920,Outros,2031-05-12 22:39:00,2016-02-07 02:57:17,Guaraci,Piauí,59809-533
-26,Carol de Faria,imboldening1824@yahoo.com,19,73,(89) 7394-3382,Outros,2026-04-12 03:08:00,2018-01-23 17:35:11,Chã Preta,São Paulo,34946-441
-27,Deméter Cozumeco,cowkeeper1802@yandex.com,36,69,(27) 69090-6030,Feminino,2012-10-12 15:47:00,2016-10-19 21:48:37,São Sebastião de Lagoa de Roça,São Paulo,92931-188
-19,Iria Tozzi,nonviscous1855@live.com,34,208,+55-21 1160-0365,Fluido,2018-02-05 12:41:00,2016-08-18 19:24:57,Socorro do Piauí,Paraíba,10622-368
-28,Nazarina Pitanga,outmantle1832@yahoo.com,56,108,+55-21 2699-8168,Masculino,2021-09-18 14:08:00,2017-09-22 01:05:10,Sabinópolis,Amazonas,13875-407
-32,Ariadne Brioschi,notifying1944@live.com,19,140,+55-91 9137-5875,Outros,2033-01-21 06:26:00,2016-11-05 10:29:19,Beruri,Pernambuco,16789-687
-35,Victor Novo,blaze1834@outlook.com,32,217,+55 (94) 3632-0641,Fluido,2021-05-18 12:10:00,2016-10-22 23:47:35,São Carlos,Paraíba,96051-967
-37,Giovani Maneback,buder2009@live.com,58,69,+55 (87) 1992-4542,Outros,2003-07-04 13:31:00,2016-11-02 06:41:15,Fernando Pedroza,Pernambuco,05202-295
-34,Loela Fazollo,acclimatize1947@yandex.com,44,171,+55-91 6117-2134,Feminino,2034-10-20 14:35:00,2018-02-01 18:14:01,Santa Cruz,Espírito Santo,84138-478
-41,Filino Filetti,heartbird1866@yahoo.com,71,9,+55-21 0476-9197,Fluido,2031-05-01 06:47:00,2017-08-15 03:00:38,Catende,Tocantins,49336-216
-13,Disa Volponi,uncontenting1976@yandex.com,19,208,+55-21 4169-6995,Outros,2016-08-25 05:38:00,2016-08-30 20:58:03,Colorado,Bahia,77099-597
-7,Plínia Simonato,dhooras1903@outlook.com,48,24,(67) 39149-4952,Feminino,2027-05-06 12:25:00,2018-07-25 12:18:48,Ferraz de Vasconcelos,Pernambuco,93637-212
-18,Tamára Frandsen,westwards2052@outlook.com,67,168,+55-21 6889-2238,Fluido,2010-01-05 22:19:00,2018-08-22 11:33:58,Bela Cruz,Amazonas,85869-499
-40,Terêncio Gaspar,oryx1998@outlook.com,50,197,+55-91 7521-9350,Outros,2020-10-11 22:18:00,2017-05-05 18:18:35,Barra de São Francisco,Espírito Santo,47950-875
-43,Nadja Gargan,clockhouse2031@yahoo.com,27,180,+55-21 6715-1331,Fluido,2025-01-05 15:00:00,2017-02-13 00:01:04,Bela Vista de Goiás,Rio Grande do Sul,71870-676
-20,Remígio Bassani,acronymized1964@yandex.com,34,25,+55-21 4820-6680,Feminino,2025-04-18 14:54:00,2018-10-14 23:58:57,Senador Firmino,Rondônia,99454-945
-12,Bernarda de Góes,seersucker1946@outlook.com,37,238,(66) 9940-7205,Outros,2013-06-15 19:25:00,2016-07-30 17:40:48,Feliz Natal,Tocantins,72711-831
-49,Mirto Lems,rhinoplasty2043@outlook.com,30,144,+55 (04) 2798-6306,Feminino,2032-07-19 11:35:00,2017-12-01 23:19:46,Senador La Rocque,Alagoas,78053-847
-38,Pérsio Tedoldi,runaround1965@yahoo.com,48,180,+55-21 0044-4128,Outros,2010-02-23 03:44:00,2018-09-17 04:09:33,Porto do Mangue,Roraima,40168-624
-30,Severa McCune,dhava1863@outlook.com,30,222,+55-91 9298-7270,Feminino,2026-04-20 03:14:00,2016-08-04 14:40:34,Paraguaçu,Piauí,18818-426
-15,Ary Valani,dilbert1941@outlook.com,35,170,+55-21 7225-3549,Feminino,2013-09-19 05:43:00,2016-04-20 07:58:08,São Brás,Rio Grande do Norte,70621-984
-1,Esaú Pedrazini,novcic1974@live.com,38,241,+55-21 5478-0681,Masculino,2007-10-14 16:57:00,2017-07-02 11:01:17,Acaiaca,Maranhão,10602-014
-16,Anunciada Cressafe,emblem1915@yandex.com,71,92,(61) 8165-2429,Outros,2032-10-15 07:56:00,2017-01-08 07:10:58,Orlândia,Amapá,18982-102
-44,Perfeito Du Pin,cameo1994@live.com,52,94,+55 (97) 2209-8027,Masculino,2005-11-22 14:56:00,2016-12-25 13:33:14,Arroio Trinta,Maranhão,50615-462
-10,Nânci Mazzoco,sensorium1860@outlook.com,34,34,+55-21 7756-6605,Feminino,2021-11-02 03:34:00,2016-11-22 10:30:57,Joaíma,Sergipe,79455-703
-36,Filino Cergueira,prorebate1935@yahoo.com,34,178,(91) 30756-8419,Feminino,2025-11-24 01:43:00,2016-12-21 23:18:07,Água Branca,Acre,99360-218
-8,Aureliana Sant'Anna,neuratrophic1885@yahoo.com,71,16,+55-21 2437-6357,Outros,2019-08-12 01:13:00,2016-02-02 23:44:36,Nova Cantu,Paraíba,05908-285
-21,Trindade Mengale,exhaustedness1809@live.com,71,202,+55-21 4194-8282,Outros,2008-03-22 14:36:00,2018-02-23 14:21:36,Pereiro,Amazonas,56543-336
-46,Russel Dassié,muumuu1952@yahoo.com,56,179,+55 (99) 8308-3602,Feminino,2034-04-25 09:15:00,2016-11-12 03:16:25,Joanópolis,Bahia,35522-445
-50,Aléxio Bandeira,bronchiole2067@outlook.com,69,50,+55 (10) 9420-3261,Fluido,2026-10-09 19:32:00,2018-05-31 19:28:10,Santo Amaro do Maranhão,Pará,66239-746
-42,Loide Villares,indisciplinable1859@gmail.com,70,232,(02) 18481-8368,Feminino,2030-10-09 16:06:00,2018-06-18 03:58:28,Capixaba,Rio de Janeiro,60989-674
-29,Simoneta Onhas,fluyt1913@yahoo.com,67,2,+55-21 4586-0359,Feminino,2006-09-15 13:27:00,2017-03-19 19:12:28,Campo do Tenente,Mato Grosso,25479-477
-6,Cícero Marini,abrasive1988@live.com,61,209,(68) 5218-9712,Fluido,2018-03-28 18:21:00,2016-10-08 12:22:56,Trindade,Tocantins,61673-633
-84,Loela Fazollo,acclimatize1947@yandex.com,44,171,+55-91 6117-2134,Feminino,2034-10-20 14:35:00,2017-06-18 04:18:03,Santa Cruz,Espírito Santo,84138-478
-72,Graciosa Fachini,drainpipe1984@gmail.com,55,79,+55-91 9095-9818,Fluido,2008-08-19 00:41:00,2016-12-20 12:26:58,Terra Roxa,Ceará,99868-402
-81,Sadrudine Andreão,armadillo1885@yandex.com,46,203,(54) 40803-8238,Feminino,2007-11-26 06:18:00,2017-11-17 09:28:48,Filadélfia,Mato Grosso do Sul,64118-559
-98,Diza Capucho,kiwifruit1807@outlook.com,58,125,+55-91 0421-4273,Feminino,2017-03-06 16:27:00,2017-08-27 11:07:05,Diamantino,Goiás,67356-428
-60,Nânci Mazzoco,sensorium1860@outlook.com,34,34,+55-21 7756-6605,Feminino,2021-11-02 03:34:00,2018-01-14 02:33:57,Joaíma,Sergipe,79455-703
-61,Eliete Reis,enrica1839@gmail.com,70,113,+55-21 5794-6796,Outros,2032-07-09 07:56:00,2018-05-11 09:25:42,Gararu,Mato Grosso do Sul,13268-532
-99,Mirto Lems,rhinoplasty2043@outlook.com,30,144,+55 (04) 2798-6306,Feminino,2032-07-19 11:35:00,2017-05-19 14:49:53,Senador La Rocque,Alagoas,78053-847
-83,Dulcineia Carvalhido,rajarshi2066@yahoo.com,23,57,+55-21 3768-9752,Outros,2005-05-18 05:46:00,2017-10-29 16:49:02,Capivari do Sul,Sergipe,80397-299
-69,Iria Tozzi,nonviscous1855@live.com,34,208,+55-21 1160-0365,Fluido,2018-02-05 12:41:00,2016-07-21 15:32:00,Socorro do Piauí,Paraíba,10622-368
-59,Heldo Guidolini,auric1962@outlook.com,67,196,+55 (26) 6290-7570,Outros,2025-03-08 21:49:00,2016-05-17 17:04:14,Taquarivaí,Tocantins,44789-812
-65,Ary Valani,dilbert1941@outlook.com,35,170,+55-21 7225-3549,Feminino,2013-09-19 05:43:00,2016-05-26 08:54:23,São Brás,Rio Grande do Norte,70621-984
-51,Esaú Pedrazini,novcic1974@live.com,38,241,+55-21 5478-0681,Masculino,2007-10-14 16:57:00,2017-05-16 03:22:44,Acaiaca,Maranhão,10602-014
-75,Derick Delazare,cowhand1946@yandex.com,43,64,(61) 88458-4924,Masculino,2014-11-13 07:12:00,2017-11-28 16:53:48,Vila Valério,Maranhão,42865-816
-87,Giovani Maneback,buder2009@live.com,58,69,+55 (87) 1992-4542,Outros,2003-07-04 13:31:00,2016-03-01 07:34:27,Fernando Pedroza,Pernambuco,05202-295
-97,Africano Albani,squirarchal1980@yandex.com,61,145,+55 (93) 1005-0399,Masculino,2029-10-19 09:51:00,2017-03-22 08:12:43,Itaberá,Tocantins,51969-507
-76,Carol de Faria,imboldening1824@yahoo.com,19,73,(89) 7394-3382,Outros,2026-04-12 03:08:00,2018-10-21 04:09:49,Chã Preta,São Paulo,34946-441
-52,Gileade Lessa,cockled1872@gmail.com,68,175,+55 (83) 8486-7305,Masculino,2030-11-27 10:05:00,2016-01-10 03:50:15,São João do Oriente,Pernambuco,94068-092
-62,Bernarda de Góes,seersucker1946@outlook.com,37,238,(66) 9940-7205,Outros,2013-06-15 19:25:00,2016-12-13 23:34:25,Feliz Natal,Tocantins,72711-831
-82,Ariadne Brioschi,notifying1944@live.com,19,140,+55-91 9137-5875,Outros,2033-01-21 06:26:00,2016-01-19 01:20:42,Beruri,Pernambuco,16789-687
-63,Disa Volponi,uncontenting1976@yandex.com,19,208,+55-21 4169-6995,Outros,2016-08-25 05:38:00,2016-03-29 21:51:10,Colorado,Bahia,77099-597
-68,Tamára Frandsen,westwards2052@outlook.com,67,168,+55-21 6889-2238,Fluido,2010-01-05 22:19:00,2016-09-28 13:12:21,Bela Cruz,Amazonas,85869-499
-56,Cícero Marini,abrasive1988@live.com,61,209,(68) 5218-9712,Fluido,2018-03-28 18:21:00,2017-05-06 20:52:13,Trindade,Tocantins,61673-633
-78,Nazarina Pitanga,outmantle1832@yahoo.com,56,108,+55-21 2699-8168,Masculino,2021-09-18 14:08:00,2016-01-09 15:23:33,Sabinópolis,Amazonas,13875-407
-74,Ovídio de Albergaria,cutesy1849@gmail.com,46,178,+55-21 2941-2762,Outros,2001-09-30 22:31:00,2018-01-21 12:08:13,Santa Bárbara d'Oeste,Alagoas,71766-790
-58,Aureliana Sant'Anna,neuratrophic1885@yahoo.com,71,16,+55-21 2437-6357,Outros,2019-08-12 01:13:00,2017-02-20 23:24:45,Nova Cantu,Paraíba,05908-285
-89,Haroldo Benedetti,aggression2063@yandex.com,33,147,+55-91 4444-4998,Feminino,2003-07-08 16:04:00,2016-04-10 13:51:42,Itapuã do Oeste,Amapá,08180-459
-77,Deméter Cozumeco,cowkeeper1802@yandex.com,36,69,(27) 69090-6030,Feminino,2012-10-12 15:47:00,2016-02-04 12:21:51,São Sebastião de Lagoa de Roça,São Paulo,92931-188
-96,Russel Dassié,muumuu1952@yahoo.com,56,179,+55 (99) 8308-3602,Feminino,2034-04-25 09:15:00,2016-03-27 17:13:10,Joanópolis,Bahia,35522-445
-54,Ragendra Giobini,sourbellies1949@live.com,66,120,(56) 69499-8370,Outros,2007-07-09 14:13:00,2016-08-01 06:07:07,Cláudio,Ceará,75354-110
-93,Nadja Gargan,clockhouse2031@yahoo.com,27,180,+55-21 6715-1331,Fluido,2025-01-05 15:00:00,2016-12-04 11:53:16,Bela Vista de Goiás,Rio Grande do Sul,71870-676
-85,Victor Novo,blaze1834@outlook.com,32,217,+55 (94) 3632-0641,Fluido,2021-05-18 12:10:00,2018-06-04 16:56:34,São Carlos,Paraíba,96051-967
-79,Simoneta Onhas,fluyt1913@yahoo.com,67,2,+55-21 4586-0359,Feminino,2006-09-15 13:27:00,2017-04-25 15:53:14,Campo do Tenente,Mato Grosso,25479-477
-64,Idália Guimarães,kingliest2034@yahoo.com,20,102,+55 (62) 8256-2920,Outros,2031-05-12 22:39:00,2017-05-27 12:03:39,Guaraci,Piauí,59809-533
-71,Trindade Mengale,exhaustedness1809@live.com,71,202,+55-21 4194-8282,Outros,2008-03-22 14:36:00,2018-07-22 00:29:35,Pereiro,Amazonas,56543-336
-92,Loide Villares,indisciplinable1859@gmail.com,70,232,(02) 18481-8368,Feminino,2030-10-09 16:06:00,2017-02-02 06:06:11,Capixaba,Rio de Janeiro,60989-674
-95,Feba Alvernaz,imboldening2021@gmail.com,44,70,+55-21 3563-7929,Fluido,2027-05-21 12:24:00,2018-10-29 20:07:16,Nazaré,Roraima,12505-114
-86,Filino Cergueira,prorebate1935@yahoo.com,34,178,(91) 30756-8419,Feminino,2025-11-24 01:43:00,2016-07-19 10:25:03,Água Branca,Acre,99360-218
-88,Pérsio Tedoldi,runaround1965@yahoo.com,48,180,+55-21 0044-4128,Outros,2010-02-23 03:44:00,2017-06-29 04:35:36,Porto do Mangue,Roraima,40168-624
-90,Terêncio Gaspar,oryx1998@outlook.com,50,197,+55-91 7521-9350,Outros,2020-10-11 22:18:00,2016-02-22 17:37:38,Barra de São Francisco,Espírito Santo,47950-875
-100,Aléxio Bandeira,bronchiole2067@outlook.com,69,50,+55 (10) 9420-3261,Fluido,2026-10-09 19:32:00,2016-02-10 05:19:19,Santo Amaro do Maranhão,Pará,66239-746
-53,Georgeta McCune,acana2031@gmail.com,63,238,(48) 52089-6680,Feminino,2002-12-23 12:31:00,2017-06-07 04:15:09,Marapanim,Ceará,34749-987
-57,Plínia Simonato,dhooras1903@outlook.com,48,24,(67) 39149-4952,Feminino,2027-05-06 12:25:00,2016-09-04 02:37:44,Ferraz de Vasconcelos,Pernambuco,93637-212
-66,Anunciada Cressafe,emblem1915@yandex.com,71,92,(61) 8165-2429,Outros,2032-10-15 07:56:00,2018-10-12 13:20:15,Orlândia,Amapá,18982-102
-80,Severa McCune,dhava1863@outlook.com,30,222,+55-91 9298-7270,Feminino,2026-04-20 03:14:00,2018-08-19 11:55:45,Paraguaçu,Piauí,18818-426
-91,Filino Filetti,heartbird1866@yahoo.com,71,9,+55-21 0476-9197,Fluido,2031-05-01 06:47:00,2018-02-14 13:28:09,Catende,Tocantins,49336-216
-67,Vicêncio Strozzi,recycled1853@yandex.com,45,39,(74) 25358-5977,Outros,2008-08-18 14:36:00,2017-07-23 08:04:08,Caparaó,Pernambuco,84541-211
-94,Perfeito Du Pin,cameo1994@live.com,52,94,+55 (97) 2209-8027,Masculino,2005-11-22 14:56:00,2016-12-24 21:07:45,Arroio Trinta,Maranhão,50615-462
-55,Rodolfo de Moraes,goalkeeping1949@yandex.com,29,20,+55 (51) 4363-5132,Feminino,2013-04-15 18:19:00,2016-09-26 02:32:27,Caeté,Rondônia,83491-627
-73,Liseta Gaspar,gull2019@yandex.com,68,29,+55-91 5857-5310,Fluido,2022-11-19 03:31:00,2017-07-12 09:21:35,Juatuba,Sergipe,58448-030
-70,Remígio Bassani,acronymized1964@yandex.com,34,25,+55-21 4820-6680,Feminino,2025-04-18 14:54:00,2017-12-19 14:00:04,Senador Firmino,Rondônia,99454-945
+customer_id,customer_name,email,age,country_id,phoneNumber,gender,birthdate,register_date,city,state,postalcode
+7,Amâncio Pegovaro,stuber1877@yahoo.com,30,55,+55-21 8158-7480,Masculino,2006-05-09 02:44:00,2018-02-24 16:23:18,Santa Teresa,Paraíba,87188-778
+9,Suati Balestre,dropsy1985@yandex.com,42,221,(10) 5308-4532,Masculino,2030-06-19 08:05:00,2016-05-19 10:37:30,Prata,Bahia,74680-913
+18,Guimar Dias,blackbelly2041@yandex.com,39,113,+55 (89) 2622-9836,Feminino,2010-09-24 16:24:00,2018-05-01 03:49:51,Carapebus,Espírito Santo,08725-885
+42,Héber Farias,viceless1967@yandex.com,29,71,(81) 49473-5507,Fluido,2026-07-14 03:28:00,2018-12-05 08:57:19,Santa Terezinha do Progresso,Espírito Santo,71179-179
+12,Liseta Pereira,forger2064@gmail.com,60,190,+55-21 0109-3278,Outros,2034-04-08 17:53:00,2016-06-22 00:03:33,Santa Rosa de Lima,Mato Grosso,52037-746
+4,Alan Baldotto,stripling1994@yandex.com,66,178,(85) 14000-5671,Fluido,2011-01-28 16:53:00,2017-09-03 13:04:51,Natal,Paraná,75877-374
+23,Herédia Merotto,cablet1831@gmail.com,48,237,+55 (06) 0913-2915,Feminino,2026-08-02 02:06:00,2017-02-13 07:14:01,Gameleira,Ceará,43509-248
+25,Amor Specciter???,regauges2035@outlook.com,64,201,+55 (86) 9652-2386,Outros,2013-11-06 09:46:00,2017-12-12 20:51:15,Irupi,Roraima,33477-600
+46,Leonídio Assumpção,caviling2045@yahoo.com,71,130,+55 (44) 3711-7879,Fluido,2033-09-02 20:56:00,2017-02-15 05:15:46,Tupanci do Sul,Amazonas,69237-257
+13,Florentino Rabelo,bisquette1862@yandex.com,38,103,(03) 3050-3056,Feminino,2021-01-11 11:08:00,2018-04-04 05:42:33,Natuba,Paraná,97368-319
+3,Lucelinda Mamoni,coleridge2068@outlook.com,34,220,+55 (31) 0304-7932,Outros,2001-03-10 16:52:00,2018-05-28 09:39:13,Palotina,Mato Grosso do Sul,05637-054
+35,Fabião Alfarenga,evens1838@outlook.com,72,209,+55 (04) 6921-2478,Masculino,2001-03-28 00:41:00,2017-11-11 15:07:00,Miradouro,Sergipe,27086-567
+33,Ermitério Chagas,votiveness1873@outlook.com,53,108,+55-91 2732-8109,Fluido,2008-08-03 09:05:00,2016-08-09 19:48:55,Três Lagoas,Ceará,80419-681
+21,Guterre de Góes,fulgurous2041@yandex.com,69,214,+55-91 7863-3566,Masculino,2024-02-25 19:27:00,2017-02-26 14:03:16,Espírito Santo do Turvo,Minas Gerais,77999-835
+17,Fabião Ghivan,eidetic1913@yahoo.com,30,179,(31) 5584-3004,Outros,2001-05-16 08:39:00,2016-11-01 10:21:19,Ibiaçá,Paraná,98469-997
+36,Otília Abraão,dacryoadenitis1919@outlook.com,64,172,(93) 3279-4586,Fluido,2024-11-16 10:45:00,2016-10-26 16:49:36,Sananduva,Mato Grosso,40668-200
+11,Olegário Sangali,baton2037@yahoo.com,36,57,(42) 2957-4980,Feminino,2026-02-21 12:16:00,2016-12-29 16:16:04,Bagre,Mato Grosso,70788-131
+24,Lia Dorzenoni,baetuli1901@live.com,48,156,(29) 8109-6887,Feminino,2008-06-10 08:16:00,2017-05-09 05:17:41,Capitão Enéas,Ceará,31208-850
+37,Tiago Dutra,brocade2009@yahoo.com,40,227,+55 (92) 6142-9460,Fluido,2033-06-07 05:51:00,2017-02-21 06:39:00,Porecatu,Alagoas,20728-874
+49,Fiama Boizam,chien1937@outlook.com,30,164,(91) 06511-4938,Feminino,2020-07-30 01:58:00,2018-09-29 19:06:00,Barro Preto (antigo Gov. Lomanto Jr.),Amapá,87900-743
+5,Vilar&nbsp; de Andrades,evacuator1896@outlook.com,47,31,(71) 38214-7972,Outros,2012-04-28 07:33:00,2018-04-18 17:54:34,Japaratuba,Amapá,50746-724
+1,Dárcio Modesto,adinole1817@gmail.com,42,140,+55 (75) 4560-9333,Masculino,2014-07-18 07:32:00,2018-02-28 07:00:39,Cerro Largo,Amazonas,74163-569
+40,Félix Perizin,rudiment1817@yandex.com,70,163,(10) 6254-9390,Masculino,2021-11-27 22:22:00,2016-01-03 11:20:55,Ipiranga do Norte,Roraima,78190-686
+20,Rivelino Nicolini,strongboxes1994@yahoo.com,65,103,+55 (13) 3591-2286,Outros,2004-02-19 10:41:00,2018-09-29 00:29:00,Sales,Alagoas,14909-431
+22,Franclim Custódio,tmeses1999@outlook.com,43,183,(23) 10686-2744,Feminino,2033-04-12 23:07:00,2016-12-25 13:16:17,Conceição do Almeida,São Paulo,90015-980
+8,Elmano Sossai,deliver1934@outlook.com,47,204,+55-21 6295-7765,Outros,2021-12-12 01:21:00,2018-10-27 03:53:02,Viçosa,Ceará,82117-836
+29,Leta Guidini,agnatha1920@yandex.com,29,158,+55-91 1703-3074,Outros,2024-07-27 07:22:00,2017-08-22 17:32:04,Paulo de Faria,Distrito Federal,26501-718
+19,Aldenir Mistura,antipodes1871@gmail.com,33,216,+55-21 1691-8782,Feminino,2010-12-03 02:29:00,2016-07-06 12:19:35,Presidente Venceslau,Amapá,90113-605
+31,Barcino Jensen,mediums1803@yahoo.com,70,171,(71) 08586-9086,Feminino,2032-11-20 23:39:00,2017-06-11 21:58:13,Travesseiro,Rondônia,77203-584
+44,Balbina Galavotti,jeopardise1932@yandex.com,47,38,+55 (87) 8146-2983,Fluido,2027-12-23 02:21:00,2016-12-26 06:44:41,Guarapari,Santa Catarina,72367-562
+34,Belisário Falqueto,displayer1861@outlook.com,40,89,(81) 75862-2201,Masculino,2019-03-16 15:24:00,2016-03-17 14:52:20,Piçarras,Bahia,10604-056
+43,Bétia Fusinato,palmiped1990@outlook.com,29,54,+55 (24) 6840-7512,Feminino,2020-10-21 04:13:00,2018-11-26 04:08:11,Lajedão,Espírito Santo,84565-379
+26,Irene Serata,tepidity1869@yandex.com,38,123,+55-21 4574-4935,Fluido,2021-08-07 20:16:00,2016-10-22 09:42:49,Natal,Bahia,79953-425
+15,Enide Suave,awesome2021@yahoo.com,51,26,+55-91 2189-7173,Outros,2007-01-27 05:57:00,2016-01-03 04:29:47,Extrema,Rio Grande do Norte,43383-801
+30,Castelina Mario,tafia1998@gmail.com,54,23,+55-91 8932-6135,Outros,2029-02-13 01:15:00,2016-03-26 13:55:59,Duque de Caxias,Paraná,40806-766
+6,Omara Fagundes,carita1807@gmail.com,46,213,+55-21 5047-1462,Masculino,2027-11-12 01:46:00,2018-08-03 21:33:39,Modelo,Santa Catarina,97386-086
+27,Leandra Sartório,bloodletting1888@yandex.com,60,186,+55 (30) 3082-0211,Outros,2027-05-28 20:03:00,2017-11-18 12:34:50,Pedra Branca,Acre,37309-097
+48,Vitorina Dessaure,folkmotes1900@gmail.com,38,55,(42) 49411-4717,Fluido,2002-04-17 10:16:00,2017-05-04 22:11:55,Regeneração,Rondônia,36537-006
+47,Zuleica Jacome,unstridently1985@outlook.com,25,113,+55 (45) 4412-8828,Fluido,2031-09-25 17:06:00,2016-03-13 13:41:51,Cerro Negro,Tocantins,02416-510
+32,Carminho Ferrari,cornice1961@outlook.com,30,191,+55-91 9727-0230,Outros,2000-12-20 14:39:00,2016-12-14 03:16:42,Pires do Rio,Alagoas,56246-211
+14,Liana Cunha,newt2053@live.com,18,63,+55-91 9912-0045,Feminino,2013-03-06 10:53:00,2016-11-20 10:46:53,Pires do Rio,São Paulo,12367-179
+45,Reinalda Matielo,estheticism1932@outlook.com,54,180,+55 (91) 5445-0376,Masculino,2035-03-02 23:12:00,2016-01-02 15:36:08,Campina das Missões,Paraíba,38232-772
+41,Dámaris Bettin,aviation1969@yahoo.com,24,48,+55-21 1681-7067,Fluido,2029-10-13 00:09:00,2016-09-15 07:20:36,Lajedo,Distrito Federal,84959-903
+39,Artemísia Aiette Malo,theek1875@outlook.com,40,11,(51) 3988-3275,Masculino,2002-04-05 20:19:00,2016-10-16 11:48:19,Morro Redondo,Rondônia,33277-999
+2,Diva Réboli,afrikaans1819@yandex.com,20,203,+55-21 4409-8556,Fluido,2028-05-13 00:59:00,2018-11-19 22:08:47,Lindóia,Ceará,80725-557
+38,Ernesto Casagrande,falconry1908@outlook.com,38,197,+55-21 8710-4315,Feminino,2015-06-09 12:48:00,2018-10-31 07:45:31,Caçapava do Sul,Roraima,12551-632
+50,Odete Penha,cabalist2027@outlook.com,33,57,+55-21 8110-2647,Outros,2035-08-27 16:19:00,2017-09-06 17:48:02,Paraíso,Alagoas,81473-009
+16,Uriel Liduino,compatibilities1846@yahoo.com,64,84,(18) 2867-0257,Masculino,2029-10-30 23:01:00,2018-11-22 20:30:03,Cortês,Sergipe,27847-281
+10,Atenais Maroto,carapo1997@gmail.com,56,106,+55 (96) 2188-6819,Outros,2011-02-27 17:34:00,2018-04-29 08:12:50,Glória d'Oeste,Maranhão,81332-565
+28,Leónidas Steele,unrowdy1963@yahoo.com,35,12,(86) 74432-2118,Masculino,2015-01-29 04:20:00,2016-07-09 18:28:14,Espírito Santo do Dourado,Paraná,49683-550
+84,Belisário Falqueto,displayer1861@outlook.com,40,89,(81) 75862-2201,Masculino,2019-03-16 15:24:00,2016-09-20 09:13:57,Piçarras,Bahia,10604-056
+82,Carminho Ferrari,cornice1961@outlook.com,30,191,+55-91 9727-0230,Outros,2000-12-20 14:39:00,2017-09-14 06:13:06,Pires do Rio,Alagoas,56246-211
+78,Leónidas Steele,unrowdy1963@yahoo.com,35,12,(86) 74432-2118,Masculino,2015-01-29 04:20:00,2016-12-04 19:49:10,Espírito Santo do Dourado,Paraná,49683-550
+87,Tiago Dutra,brocade2009@yahoo.com,40,227,+55 (92) 6142-9460,Fluido,2033-06-07 05:51:00,2016-03-30 09:59:45,Porecatu,Alagoas,20728-874
+59,Suati Balestre,dropsy1985@yandex.com,42,221,(10) 5308-4532,Masculino,2030-06-19 08:05:00,2018-02-27 19:02:30,Prata,Bahia,74680-913
+83,Ermitério Chagas,votiveness1873@outlook.com,53,108,+55-91 2732-8109,Fluido,2008-08-03 09:05:00,2016-09-26 06:35:47,Três Lagoas,Ceará,80419-681
+98,Vitorina Dessaure,folkmotes1900@gmail.com,38,55,(42) 49411-4717,Fluido,2002-04-17 10:16:00,2018-08-02 21:59:53,Regeneração,Rondônia,36537-006
+85,Fabião Alfarenga,evens1838@outlook.com,72,209,+55 (04) 6921-2478,Masculino,2001-03-28 00:41:00,2018-10-18 17:32:39,Miradouro,Sergipe,27086-567
+90,Félix Perizin,rudiment1817@yandex.com,70,163,(10) 6254-9390,Masculino,2021-11-27 22:22:00,2017-08-27 19:28:18,Ipiranga do Norte,Roraima,78190-686
+70,Rivelino Nicolini,strongboxes1994@yahoo.com,65,103,+55 (13) 3591-2286,Outros,2004-02-19 10:41:00,2017-08-04 19:09:11,Sales,Alagoas,14909-431
+77,Leandra Sartório,bloodletting1888@yandex.com,60,186,+55 (30) 3082-0211,Outros,2027-05-28 20:03:00,2017-05-10 13:53:37,Pedra Branca,Acre,37309-097
+53,Lucelinda Mamoni,coleridge2068@outlook.com,34,220,+55 (31) 0304-7932,Outros,2001-03-10 16:52:00,2018-11-07 18:14:35,Palotina,Mato Grosso do Sul,05637-054
+91,Dámaris Bettin,aviation1969@yahoo.com,24,48,+55-21 1681-7067,Fluido,2029-10-13 00:09:00,2018-07-17 15:30:24,Lajedo,Distrito Federal,84959-903
+93,Bétia Fusinato,palmiped1990@outlook.com,29,54,+55 (24) 6840-7512,Feminino,2020-10-21 04:13:00,2017-03-27 15:54:55,Lajedão,Espírito Santo,84565-379
+63,Florentino Rabelo,bisquette1862@yandex.com,38,103,(03) 3050-3056,Feminino,2021-01-11 11:08:00,2017-11-23 08:43:12,Natuba,Paraná,97368-319
+86,Otília Abraão,dacryoadenitis1919@outlook.com,64,172,(93) 3279-4586,Fluido,2024-11-16 10:45:00,2018-10-20 09:18:11,Sananduva,Mato Grosso,40668-200
+89,Artemísia Aiette Malo,theek1875@outlook.com,40,11,(51) 3988-3275,Masculino,2002-04-05 20:19:00,2016-12-25 07:13:09,Morro Redondo,Rondônia,33277-999
+100,Odete Penha,cabalist2027@outlook.com,33,57,+55-21 8110-2647,Outros,2035-08-27 16:19:00,2016-09-15 21:06:12,Paraíso,Alagoas,81473-009
+60,Atenais Maroto,carapo1997@gmail.com,56,106,+55 (96) 2188-6819,Outros,2011-02-27 17:34:00,2016-05-20 06:54:32,Glória d'Oeste,Maranhão,81332-565
+69,Aldenir Mistura,antipodes1871@gmail.com,33,216,+55-21 1691-8782,Feminino,2010-12-03 02:29:00,2018-08-15 22:10:32,Presidente Venceslau,Amapá,90113-605
+62,Liseta Pereira,forger2064@gmail.com,60,190,+55-21 0109-3278,Outros,2034-04-08 17:53:00,2017-09-12 23:23:25,Santa Rosa de Lima,Mato Grosso,52037-746
+88,Ernesto Casagrande,falconry1908@outlook.com,38,197,+55-21 8710-4315,Feminino,2015-06-09 12:48:00,2016-03-10 23:35:27,Caçapava do Sul,Roraima,12551-632
+94,Balbina Galavotti,jeopardise1932@yandex.com,47,38,+55 (87) 8146-2983,Fluido,2027-12-23 02:21:00,2017-05-07 13:13:19,Guarapari,Santa Catarina,72367-562
+68,Guimar Dias,blackbelly2041@yandex.com,39,113,+55 (89) 2622-9836,Feminino,2010-09-24 16:24:00,2018-08-20 03:44:24,Carapebus,Espírito Santo,08725-885
+79,Leta Guidini,agnatha1920@yandex.com,29,158,+55-91 1703-3074,Outros,2024-07-27 07:22:00,2018-01-21 15:51:06,Paulo de Faria,Distrito Federal,26501-718
+81,Barcino Jensen,mediums1803@yahoo.com,70,171,(71) 08586-9086,Feminino,2032-11-20 23:39:00,2017-09-13 12:09:29,Travesseiro,Rondônia,77203-584
+52,Diva Réboli,afrikaans1819@yandex.com,20,203,+55-21 4409-8556,Fluido,2028-05-13 00:59:00,2016-12-09 07:01:43,Lindóia,Ceará,80725-557
+54,Alan Baldotto,stripling1994@yandex.com,66,178,(85) 14000-5671,Fluido,2011-01-28 16:53:00,2016-09-09 00:46:57,Natal,Paraná,75877-374
+99,Fiama Boizam,chien1937@outlook.com,30,164,(91) 06511-4938,Feminino,2020-07-30 01:58:00,2018-04-04 15:06:25,Barro Preto (antigo Gov. Lomanto Jr.),Amapá,87900-743
+58,Elmano Sossai,deliver1934@outlook.com,47,204,+55-21 6295-7765,Outros,2021-12-12 01:21:00,2018-07-04 03:04:22,Viçosa,Ceará,82117-836
+73,Herédia Merotto,cablet1831@gmail.com,48,237,+55 (06) 0913-2915,Feminino,2026-08-02 02:06:00,2017-04-14 17:38:19,Gameleira,Ceará,43509-248
+72,Franclim Custódio,tmeses1999@outlook.com,43,183,(23) 10686-2744,Feminino,2033-04-12 23:07:00,2018-02-21 03:37:47,Conceição do Almeida,São Paulo,90015-980
+97,Zuleica Jacome,unstridently1985@outlook.com,25,113,+55 (45) 4412-8828,Fluido,2031-09-25 17:06:00,2018-01-04 21:51:45,Cerro Negro,Tocantins,02416-510
+61,Olegário Sangali,baton2037@yahoo.com,36,57,(42) 2957-4980,Feminino,2026-02-21 12:16:00,2016-07-31 18:16:23,Bagre,Mato Grosso,70788-131
+55,Vilar&nbsp; de Andrades,evacuator1896@outlook.com,47,31,(71) 38214-7972,Outros,2012-04-28 07:33:00,2018-01-22 19:10:32,Japaratuba,Amapá,50746-724
+75,Amor Specciter???,regauges2035@outlook.com,64,201,+55 (86) 9652-2386,Outros,2013-11-06 09:46:00,2018-08-16 10:17:21,Irupi,Roraima,33477-600
+56,Omara Fagundes,carita1807@gmail.com,46,213,+55-21 5047-1462,Masculino,2027-11-12 01:46:00,2016-04-13 05:04:02,Modelo,Santa Catarina,97386-086
+66,Uriel Liduino,compatibilities1846@yahoo.com,64,84,(18) 2867-0257,Masculino,2029-10-30 23:01:00,2017-04-25 22:59:13,Cortês,Sergipe,27847-281
+80,Castelina Mario,tafia1998@gmail.com,54,23,+55-91 8932-6135,Outros,2029-02-13 01:15:00,2018-01-08 20:22:33,Duque de Caxias,Paraná,40806-766
+95,Reinalda Matielo,estheticism1932@outlook.com,54,180,+55 (91) 5445-0376,Masculino,2035-03-02 23:12:00,2018-07-26 09:50:33,Campina das Missões,Paraíba,38232-772
+57,Amâncio Pegovaro,stuber1877@yahoo.com,30,55,+55-21 8158-7480,Masculino,2006-05-09 02:44:00,2018-06-10 11:51:22,Santa Teresa,Paraíba,87188-778
+64,Liana Cunha,newt2053@live.com,18,63,+55-91 9912-0045,Feminino,2013-03-06 10:53:00,2016-08-25 23:27:15,Pires do Rio,São Paulo,12367-179
+71,Guterre de Góes,fulgurous2041@yandex.com,69,214,+55-91 7863-3566,Masculino,2024-02-25 19:27:00,2017-12-25 21:18:01,Espírito Santo do Turvo,Minas Gerais,77999-835
+76,Irene Serata,tepidity1869@yandex.com,38,123,+55-21 4574-4935,Fluido,2021-08-07 20:16:00,2017-01-13 06:13:16,Natal,Bahia,79953-425
+74,Lia Dorzenoni,baetuli1901@live.com,48,156,(29) 8109-6887,Feminino,2008-06-10 08:16:00,2016-10-18 01:14:58,Capitão Enéas,Ceará,31208-850
+92,Héber Farias,viceless1967@yandex.com,29,71,(81) 49473-5507,Fluido,2026-07-14 03:28:00,2016-06-25 17:33:08,Santa Terezinha do Progresso,Espírito Santo,71179-179
+96,Leonídio Assumpção,caviling2045@yahoo.com,71,130,+55 (44) 3711-7879,Fluido,2033-09-02 20:56:00,2016-09-07 11:13:36,Tupanci do Sul,Amazonas,69237-257
+51,Dárcio Modesto,adinole1817@gmail.com,42,140,+55 (75) 4560-9333,Masculino,2014-07-18 07:32:00,2016-01-06 02:56:54,Cerro Largo,Amazonas,74163-569
+67,Fabião Ghivan,eidetic1913@yahoo.com,30,179,(31) 5584-3004,Outros,2001-05-16 08:39:00,2018-05-16 02:19:45,Ibiaçá,Paraná,98469-997
+65,Enide Suave,awesome2021@yahoo.com,51,26,+55-91 2189-7173,Outros,2007-01-27 05:57:00,2017-04-02 08:31:57,Extrema,Rio Grande do Norte,43383-801

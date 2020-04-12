@@ -1,4 +1,3 @@
-import mimesis
 import json
 import common_functions
 import random
@@ -16,12 +15,10 @@ out_path = config["output_path_files"]
 language = config["language"]
 
 # clickstream config
-outfile = config["clickstream"]["outfile"]
-outsize = config["clickstream"]["total"]
-click_start_date = config["clickstream"]["click_start_date"]
-click_end_date = config["clickstream"]["click_end_date"]
-
-index_clickstream_start = 1
+outfile = config["clickstream_no_succeed"]["outfile"]
+outsize = config["clickstream_no_succeed"]["total"]
+click_start_date = config["clickstream_no_succeed"]["click_start_date"]
+click_end_date = config["clickstream_no_succeed"]["click_end_date"]
 
 # config of media sources
 media_sources = config["media"]["sources"]

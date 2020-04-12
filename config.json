@@ -34,11 +34,21 @@
     "total": 10,
     "outfile": "suppliers.csv"
   },
-  "clickstream":{
+  "clickstream_no_succeed":{
     "total": 100,
     "outfile": "clickstream-no-succeed.csv",
     "click_start_date": "2016-1-1 00:00:00",
     "click_end_date": "2018-12-31 23:59:59"
+  },
+  "clickstream_succeed":{
+    "outfile": "clickstream-succeed.csv"
+  },
+  "orders":{
+    "total": 10000,
+    "order_start_date":"2017-1-1 00:00:00",
+    "order_end_date":"2018-12-31 23:59:59",
+    "outfile": "orders.csv",
+    "percentage_no_campaign": 0.5
   },
   "language": "pt-br",
   "media":{

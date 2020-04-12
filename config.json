@@ -6,7 +6,6 @@
     "auto_batch_based_in_cpu":"True"
   },
   "customers": {
-    "index_start": 1,
     "total": 100,
     "outfile": "customers.csv",
     "min_age": 18,
@@ -15,20 +14,16 @@
     "joined_end_date": "2018-12-31 23:59:59"
   },
   "campaigns": {
-    "index_start": 1,
     "outfile": "campaigns.csv"
   },
   "payments": {
-    "index_start": 1,
     "outfile": "payments.csv"
   },
   "products": {
-    "index_start": 1,
     "total": 20,
     "outfile": "products.csv"
   },
   "shippers": {
-    "index_start": 1,
     "total": 10,
     "outfile": "shippers.csv"
   },
@@ -36,7 +31,6 @@
     "outfile": "prod_categories.csv"
   },
   "suppliers": {
-    "index_start": 1,
     "total": 10,
     "outfile": "suppliers.csv"
   },

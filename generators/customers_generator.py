@@ -16,8 +16,7 @@ machine_cores = int(config["n_cores"])
 out_path = config["output_path_files"]
 language = config["language"]
 
-# customers config
-index_customer_start = config["customers"]["index_start"]
+# customer config
 outfile = config["customers"]["outfile"]
 outsize = config["customers"]["total"]
 max_age = config["customers"]["max_age"]
@@ -87,11 +86,11 @@ number_of_loops = int(outsize/amounts)
 residue = outsize - amounts * number_of_loops
 
 # first generating residue
-pool.apply_async(generate_customers, args=(residue, index_customer_start), callback=collect_customers)
+pool.apply_async(generate_customers, args=(residue, 1), callback=collect_customers)
 
 # generating customer in  parallel 
 for i in range(number_of_loops):
-    pool.apply_async(generate_customers, args=(amounts, (i * amounts) + residue + index_customer_start), callback=collect_customers)
+    pool.apply_async(generate_customers, args=(amounts, (i * amounts) + residue + 1), callback=collect_customers)
 
 # closing pool
 pool.close()

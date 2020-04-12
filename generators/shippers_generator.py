@@ -13,7 +13,6 @@ with open('../config.json') as data:
 # setting up variables
 machine_cores = int(config["n_cores"])
 out_path = config["output_path_files"]
-index_shipper_start = config["shippers"]["index_start"]
 outfile = config["shippers"]["outfile"]
 outsize = config["shippers"]["total"]
 language = config["language"]
@@ -78,11 +77,11 @@ number_of_loops = int(outsize/amounts)
 residue = outsize - amounts * number_of_loops
 
 # first generating residue
-pool.apply_async(generate_shippers, args=(residue, index_shipper_start), callback=collect_shippers)
+pool.apply_async(generate_shippers, args=(residue, 1), callback=collect_shippers)
 
 # generating shippers in  parallel 
 for i in range(number_of_loops):
-    pool.apply_async(generate_shippers, args=(amounts, (i * amounts) + residue + index_shipper_start), callback=collect_shippers)
+    pool.apply_async(generate_shippers, args=(amounts, (i * amounts) + residue + 1), callback=collect_shippers)
 
 # closing pool
 pool.close()

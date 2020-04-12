@@ -9,7 +9,6 @@ with open('../config.json') as data:
 
 # setting up variables
 out_path = config["output_path_files"]
-index_payment_start = config["campaigns"]["index_start"]
 outfile = config["campaigns"]["outfile"]
 language = config["language"]
 campaigns = config[language]["campaigns"]
@@ -19,7 +18,7 @@ camps = []
 
 for i in range(outsize):
     print(i + 1,"processed")
-    campaign_id = i + index_payment_start
+    campaign_id = i + 1
     discount = round(random.uniform(0.1, 0.5),2)
     camps.append((campaign_id,campaigns[i],discount))
 

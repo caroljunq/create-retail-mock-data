@@ -8,7 +8,6 @@ with open('../config.json') as data:
 
 # setting up variables
 out_path = config["output_path_files"]
-index_payment_start = config["payments"]["index_start"]
 outfile = config["payments"]["outfile"]
 language = config["language"]
 payments = config[language]["payments"]
@@ -18,7 +17,7 @@ payms = []
 
 for i in range(outsize):
     print(i + 1,"processed")
-    payment_id = i + index_payment_start
+    payment_id = i + 1
     payms.append((payment_id,payments[i],"dummy dummy dummy dummy"))
 
 # creating a data frame with the final results

@@ -33,36 +33,32 @@ auto_batch = True if config["data_processing"]["auto_batch_based_in_cpu"] == "Tr
 
 # config of campaigns
 n_campaings = len(config[language]["campaigns"])
-index_campaign_start = config["campaigns"]["index_start"]
-campaigns_id_range = list(range(index_campaign_start,index_campaign_start + n_campaings))
+campaigns_id_range = list(range(1,n_campaings + 1))
 
 # config of customers
 n_customers = config["customers"]["total"]
-index_start_customer = config["customers"]["index_start"]
 
 # config of products
 n_products = config["products"]["total"]
-index_start_product = config["products"]["index_start"]
 
 # calculating random probabilities
-campaigns_prob = common_functions.random_probabilities(index_campaign_start, index_campaign_start + n_campaings - 1)
+campaigns_prob = common_functions.random_probabilities(1,n_campaings)
 
 # Global clickstream array
 clickstream = []
 
-def generate_clickstream(amount,index_start):
+def generate_clickstream(amount):
     # Generates clickstream info
     global clickstream
 
     results = []
 
-    for i in range(amount):
-        click_index = i + index_start 
-        customer_id = random.randint(index_start_customer, index_start_customer + n_customers - 1) 
+    for _ in range(amount):
+        customer_id = random.randint(1, n_customers) 
         order_date = common_functions.random_date(click_start_date, click_end_date, random.random())
         campaign_id = np.random.choice(campaigns_id_range, p=campaigns_prob)
         media = np.random.choice(media_sources, p=media_prob)  
-        product_id = random.randint(index_start_product, index_start_product + n_products - 1) 
+        product_id = random.randint(1, n_products) 
         results.append((customer_id,order_date,campaign_id,media,product_id))
     
     return results
@@ -86,11 +82,11 @@ number_of_loops = int(outsize/amounts)
 residue = outsize - amounts * number_of_loops
 
 # first generating residue
-pool.apply_async(generate_clickstream, args=(residue, index_clickstream_start), callback=collect_clickstream)
+pool.apply_async(generate_clickstream, args=(residue,), callback=collect_clickstream)
 
 # generating clickstream in parallel 
 for i in range(number_of_loops):
-    pool.apply_async(generate_clickstream, args=(amounts, (i * amounts) + residue + index_clickstream_start), callback=collect_clickstream)
+    pool.apply_async(generate_clickstream, args=(amounts,), callback=collect_clickstream)
 
 # closing pool
 pool.close()
@@ -103,9 +99,8 @@ df = pd.DataFrame(clickstream)
 columns_names = ["customer_id","order_date","campaign_id","media_source","product_id"]
 
 print("Saving file...")
-
 # writing file
-f = df.to_csv(out_path + outfile,header=columns_names,sep=",",index=False)
+df.to_csv(out_path + outfile,header=columns_names,sep=",",index=False)
 print("File was saved at path {}".format(out_path + outfile))
 
 

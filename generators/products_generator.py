@@ -17,14 +17,12 @@ out_path = config["output_path_files"]
 language = config["language"]
 
 # products config
-index_product_start = config["products"]["index_start"]
 outfile = config["products"]["outfile"]
 outsize = config["products"]["total"]
 
 # config suppliers
 n_suppliers = config["suppliers"]["total"]
-index_start_supplier = config["suppliers"]["index_start"]
-supplier_id_range = list(range(index_start_supplier,index_start_supplier + n_suppliers))
+supplier_id_range = list(range(1, n_suppliers + 1))
 
 # data processing config
 amounts_cpu = config["data_processing"]["amount_in_cpu"]
@@ -38,7 +36,7 @@ code = mimesis.Code(language)
 
 # 5 categories
 categories_prob = common_functions.random_probabilities(1,5)
-suppliers_prob  = common_functions.random_probabilities(index_start_supplier,index_start_supplier + n_suppliers - 1)
+suppliers_prob  = common_functions.random_probabilities(1, n_suppliers)
 
 products = []
 
@@ -101,11 +99,11 @@ number_of_loops = int(outsize/amounts)
 residue = outsize - amounts * number_of_loops
 
 # first generating residue
-pool.apply_async(generate_products, args=(residue, index_product_start), callback=collect_products)
+pool.apply_async(generate_products, args=(residue, 1), callback=collect_products)
 
 # generating products in  parallel 
 for i in range(number_of_loops):
-    pool.apply_async(generate_products, args=(amounts, (i * amounts) + residue + index_product_start), callback=collect_products)
+    pool.apply_async(generate_products, args=(amounts, (i * amounts) + residue + 1), callback=collect_products)
 
 # closing pool
 pool.close()

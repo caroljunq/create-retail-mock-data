@@ -11,14 +11,20 @@ with open('../config.json') as data:
     config = json.load(data)
 
 # setting up variables
+# general config
 machine_cores = int(config["n_cores"])
-header_in_csv = True if config["header_in_csv"] == "True" else False
 out_path = config["output_path_files"]
+language = config["language"]
+
+# products config
 index_product_start = config["products"]["index_start"]
 outfile = config["products"]["outfile"]
 outsize = config["products"]["total"]
-language = config["language"]
-suppliers_id_range = range(1,config["suppliers"]["total"] + 1)
+
+# config suppliers
+n_suppliers = config["suppliers"]["total"]
+index_start_supplier = config["suppliers"]["index_start"]
+supplier_id_range = list(range(index_start_supplier,index_start_supplier + n_suppliers))
 
 # data processing config
 amounts_cpu = config["data_processing"]["amount_in_cpu"]
@@ -32,7 +38,7 @@ code = mimesis.Code(language)
 
 # 5 categories
 categories_prob = common_functions.random_probabilities(1,5)
-suppliers_prob  = common_functions.random_probabilities(1,len(suppliers_id_range))
+suppliers_prob  = common_functions.random_probabilities(index_start_supplier,index_start_supplier + n_suppliers - 1)
 
 products = []
 
@@ -67,7 +73,7 @@ def generate_products(amount,index_start):
         weight = random.random() * 1000
         price = random.random() * 10
         description = "food food food food food food food food food food food food food food food food food"
-        supplier_id = np.random.choice(suppliers_id_range, p=suppliers_prob)
+        supplier_id = 1
         barcode = code.ean()
 
         results.add((product_id,name,category_id,weight,price,description,supplier_id,barcode))
@@ -112,11 +118,9 @@ df = pd.DataFrame(products)
 columns_names = ["product_id","name","category_id","weight","price","description","supplier_id","barcode"]
 
 print("Saving file...")
-# Defining if header will be included
-header = False if header_in_csv == False else columns_names
 
 # writing file
-f = df.to_csv(out_path + outfile,header=header,sep=",",index=False)
+f = df.to_csv(out_path + outfile,header=columns_names,sep=",",index=False)
 print("File was saved at path {}".format(out_path + outfile))
 
 

@@ -13,6 +13,7 @@ Don't forget to describe each field and its possible values.
 1- Customers,Suppliers,Shippers,Categories, Payments and Campaigns
 2- Products
 - Don't forget to describe the importance to use the same config.json for all generators (change in the paremeters)
+- remember there are some files depending on the previous execution of other scripts/generated files
 
 - joined date customers and orders
 

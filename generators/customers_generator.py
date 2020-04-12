@@ -11,9 +11,12 @@ with open('../config.json') as data:
     config = json.load(data)
 
 # setting up variables
+# general config
 machine_cores = int(config["n_cores"])
-header_in_csv = True if config["header_in_csv"] == "True" else False
 out_path = config["output_path_files"]
+language = config["language"]
+
+# customers config
 index_customer_start = config["customers"]["index_start"]
 outfile = config["customers"]["outfile"]
 outsize = config["customers"]["total"]
@@ -21,7 +24,6 @@ max_age = config["customers"]["max_age"]
 min_age = config["customers"]["min_age"]
 joined_start_date = config["customers"]["joined_start_date"]
 joined_end_date = config["customers"]["joined_end_date"]
-language = config["language"]
 genders = config[language]["genders"]
 
 # data processing config
@@ -102,10 +104,8 @@ df = pd.DataFrame(customers)
 columns_names = ["customer_id","customer_name","email","age","country_id","phoneNumber","gender","birthdate","date_joined","city","state","postalcode"]
 
 print("Saving file...")
-# Defining if header will be included
-header = False if header_in_csv == False else columns_names
 
 # writing file
-f = df.to_csv(out_path + outfile,header=header,sep=",",index=False)
+f = df.to_csv(out_path + outfile,header=columns_names,sep=",",index=False)
 print("File was saved at path {}".format(out_path + outfile))
 

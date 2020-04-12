@@ -1,101 +1,11 @@
 supplier_id,phone_number,responsible_name,title,email,country_id,city,state,register_date
-7,(15) 6667-4986,Evelina de Avila,Total Linhas Aéreas,filemaker2001@live.com,42,Planalto,Tocantins,2017-01-06 01:02:00
-33,+55 (91) 0850-0904,Nazário Villa Nova,The Happy Bear,biomagnetic2065@yandex.com,176,Taguaí,Roraima,2025-04-18 07:20:00
-18,+55 (67) 2694-1021,Cassiano Camporês,Universo Online,severality1939@yahoo.com,149,Setubinha,Distrito Federal,2030-07-03 10:10:00
-4,(00) 07147-1817,Breno Jonsson,M. Dias Branco,exorcise1858@outlook.com,109,Cardoso Moreira,Bahia,2022-12-17 14:26:00
-17,(93) 6733-5343,Xisto Caldo,A+ Investments,bhima1947@yahoo.com,123,Jaguaruna,Sergipe,2031-11-18 19:37:00
-19,(56) 59564-4620,Jonas Sossai,Netcom Business Services,cigua2067@live.com,209,Agudos do Sul,São Paulo,2030-01-10 17:00:00
-30,+55-21 9115-8080,Isis Baiense,Target Source,sooners1869@gmail.com,218,Itinga do Maranhão,Roraima,2027-03-09 21:11:00
-20,(53) 34303-0103,Maria Leonor Tonon,U.S. Steel,rajarshi1814@yahoo.com,66,Crixás,Espírito Santo,2008-07-19 01:23:00
-23,+55-91 5250-7029,Brice Cavallina,Estrela	Brinquedos,edenize1839@gmail.com,37,Jaraguari,Bahia,2021-12-30 06:53:00
-10,(59) 3234-5048,Tamára Ragazzo,Cut Rite Lawn Care,architraves1870@yahoo.com,168,Três Rios,Pernambuco,2024-09-20 15:41:00
-16,+55-91 0862-6103,Iúri Premero,Success Is Yours,distinctive2049@gmail.com,233,Itobi,Rio Grande do Sul,2014-11-11 22:09:00
-49,+55-21 5341-2837,Djalme de Faria,Banco Mercantil do Brasil,demur1940@yahoo.com,120,Camanducaia,Sergipe,2026-03-10 14:29:00
-25,(08) 27405-9624,Assunção Nerg,American Eagle Outfitters,whiffled2067@gmail.com,115,Sinimbu,Minas Gerais,2001-08-08 00:18:00
-41,(37) 95039-3878,Rafaelo Magri,Zune,edsel1858@yandex.com,203,Matina,Santa Catarina,2025-12-31 03:30:00
-5,(81) 89974-9140,Apolo Valiatti,Air Products & Chemicals,madames1894@yandex.com,12,Amaturá,Paraíba,2035-05-06 09:45:00
-37,+55-91 4043-2634,Alexa Bassetti,Mars Incorporated,homologoumena1872@outlook.com,145,Pinhal da Serra,Rio Grande do Norte,2013-08-10 01:49:00
-39,+55-91 6364-5106,Dinarta Cancian,Desert Garden Help,bardsley1972@yahoo.com,100,Paulo Bento,Piauí,2032-02-11 01:45:00
-26,+55-91 3839-5610,Remízio Pêgas,Arkeia Software,axiomatic2026@live.com,84,São Bernardo,Rio Grande do Norte,2015-06-24 00:02:00
-8,(86) 55841-4796,Sadrudine Werner,Transmissão Paulista	Utilitários,gruesome1926@outlook.com,62,Ibirarema,Pernambuco,2032-08-14 18:56:00
-31,+55-91 7699-3377,Válter Brancaglioni,Alaska Air Group,plovers2005@gmail.com,120,Santo Amaro das Brotas,Rio Grande do Sul,2017-07-31 23:50:00
-2,+55 (23) 2381-2194,Miro Hostey,Specific Appraisals,dungs1803@gmail.com,221,São Lourenço,Bahia,2008-04-09 02:44:00
-34,+55-21 2096-4455,Elvira Almeida,Destiny Realty Solutions,unliberally2054@live.com,129,Foz do Jordão,Tocantins,2024-08-21 20:33:00
-47,(45) 12494-0110,Oscarina Scoot,Dominion Resources,eriksson1898@outlook.com,77,Uibaí,Acre,2015-01-16 21:42:00
-1,(69) 15122-7964,Arlinda Abraão,Planet Profit,pederasts1885@outlook.com,89,Periquito,Roraima,2020-09-10 05:07:00
-9,+55-21 4908-4251,Aurélia Bozi,Laserfiche,dunder1833@live.com,97,Curralinho,Alagoas,2001-11-28 20:53:00
-48,(61) 6243-3406,Tomás de Albernaz,Deere & Company,subfusc1851@outlook.com,128,Maravilhas,Espírito Santo,2017-03-27 17:54:00
-45,(80) 84041-1778,Eduardo de Albergaria,Signa Air,peatery1878@live.com,38,Redenção do Gurguéia,Sergipe,2013-01-26 13:16:00
-15,(91) 51646-6219,Estélio Mendonça,Airgas,absit2030@live.com,114,Chácara,Paraíba,2016-06-21 04:45:00
-50,(26) 2086-3651,Átila Kiefer,Brunswick Corporation,paradise1834@outlook.com,86,Tapes,Amazonas,2010-11-23 06:31:00
-21,+55 (35) 1170-5203,Virtude Pezzin,Qpass,caplin1936@outlook.com,164,Montes Claros,Tocantins,2028-04-10 17:31:00
-35,+55-21 7031-8258,de Assis Grolla,Smith and Company,pantheistical1837@live.com,221,Serra Redonda,Alagoas,2005-03-04 19:30:00
-32,+55 (95) 9860-8897,Miraldina Jonsson,Dun Rite Lawn Care,nonrefutation1926@outlook.com,123,Chácara,Ceará,2000-04-17 07:30:00
-28,+55-21 2329-6266,Viveque Majeveski,Bob's	Restaurantes,caron1934@gmail.com,190,Relvado,Distrito Federal,2004-09-30 17:25:00
-11,+55 (42) 7979-3370,Vivalda Sartório,Cyrela Brazil Realty,wormer2041@yandex.com,155,Morro Agudo de Goiás,Bahia,2018-03-06 12:57:00
-36,(53) 44839-2782,Inocência Gonçalves,Road Runner Lawn Services,drover1988@outlook.com,69,Grajaú,Goiás,2011-09-08 16:28:00
-24,+55-21 6520-7435,Bela Teganhe,Gerdau,pneumatotactic1865@yandex.com,222,Ibertioga,Espírito Santo,2031-04-06 07:58:00
-43,+55 (67) 1313-9380,Berardo Mathias,Global Insight,tonic1904@gmail.com,178,São João do Ivaí,Sergipe,2021-06-18 18:07:00
-46,+55-21 2684-0211,Ionara Botteon,Amgen,crumby1982@gmail.com,142,Utinga,Sergipe,2008-12-24 14:50:00
-40,+55-21 2257-6488,Marita Lunz,Fender Musical Instruments Corporation,brocade1887@gmail.com,50,Água Fria,Piauí,2002-09-17 09:04:00
-6,+55-91 7240-7607,Liberto Batista,Positivo Informática,article2004@yandex.com,87,Conceição do Castelo,Piauí,2020-12-13 21:46:00
-14,+55-91 5434-4854,Alívio Marotto,Midway Games,replenished1871@gmail.com,29,Aliança do Tocantins,Pará,2013-11-08 20:29:00
-44,(65) 2905-0030,Vanuza Rio,Analog Devices,cow1962@live.com,127,Porecatu,Santa Catarina,2014-03-04 04:53:00
-42,(08) 3275-3989,Arisberto Braceschi,Independent Investors,bandits1829@live.com,211,Timbaúba dos Batistas,Pernambuco,2003-01-01 20:13:00
-12,+55 (47) 3134-7084,Martins Calimam,Allstate,woodcock1929@yahoo.com,68,Engenheiro Coelho,Rondônia,2004-05-17 08:49:00
-22,+55 (64) 7011-4215,Ercília Antunes,Grupo Guararapes,beograd1879@yandex.com,28,Neópolis,Acre,2032-05-26 03:20:00
-27,+55-21 6273-0657,Judá Barreira,Atlas Realty,carburant1960@live.com,75,Santa Bárbara do Leste,Sergipe,2030-09-05 18:13:00
-13,+55-21 0856-0429,Tenório Marinato,Aleris International,larcenies1933@yandex.com,106,Santo Antônio do Amparo,Goiás,2020-05-10 23:51:00
-29,+55 (22) 9841-8516,Sandrino Rugero,Best Buy,glomerate1814@yandex.com,183,Itamarandiba,Rondônia,2008-08-15 12:35:00
-38,+55-21 0008-6953,Crisante Fabis,Albertsons LLC,allocatur1803@outlook.com,115,Coroaci,Paraíba,2014-02-13 21:46:00
-3,(61) 3478-2384,Cid Dalla Betta Berta,i-flex Solutions,rudimentary1878@outlook.com,55,Acajutiba,Paraná,2021-06-10 16:49:00
-71,+55 (35) 1170-5203,Virtude Pezzin,Qpass,caplin1936@outlook.com,164,Montes Claros,Tocantins,2028-04-10 17:31:00
-51,(69) 15122-7964,Arlinda Abraão,Planet Profit,pederasts1885@outlook.com,89,Periquito,Roraima,2020-09-10 05:07:00
-94,(65) 2905-0030,Vanuza Rio,Analog Devices,cow1962@live.com,127,Porecatu,Santa Catarina,2014-03-04 04:53:00
-60,(59) 3234-5048,Tamára Ragazzo,Cut Rite Lawn Care,architraves1870@yahoo.com,168,Três Rios,Pernambuco,2024-09-20 15:41:00
-80,+55-21 9115-8080,Isis Baiense,Target Source,sooners1869@gmail.com,218,Itinga do Maranhão,Roraima,2027-03-09 21:11:00
-76,+55-91 3839-5610,Remízio Pêgas,Arkeia Software,axiomatic2026@live.com,84,São Bernardo,Rio Grande do Norte,2015-06-24 00:02:00
-53,(61) 3478-2384,Cid Dalla Betta Berta,i-flex Solutions,rudimentary1878@outlook.com,55,Acajutiba,Paraná,2021-06-10 16:49:00
-61,+55 (42) 7979-3370,Vivalda Sartório,Cyrela Brazil Realty,wormer2041@yandex.com,155,Morro Agudo de Goiás,Bahia,2018-03-06 12:57:00
-57,(15) 6667-4986,Evelina de Avila,Total Linhas Aéreas,filemaker2001@live.com,42,Planalto,Tocantins,2017-01-06 01:02:00
-66,+55-91 0862-6103,Iúri Premero,Success Is Yours,distinctive2049@gmail.com,233,Itobi,Rio Grande do Sul,2014-11-11 22:09:00
-54,(00) 07147-1817,Breno Jonsson,M. Dias Branco,exorcise1858@outlook.com,109,Cardoso Moreira,Bahia,2022-12-17 14:26:00
-92,(08) 3275-3989,Arisberto Braceschi,Independent Investors,bandits1829@live.com,211,Timbaúba dos Batistas,Pernambuco,2003-01-01 20:13:00
-62,+55 (47) 3134-7084,Martins Calimam,Allstate,woodcock1929@yahoo.com,68,Engenheiro Coelho,Rondônia,2004-05-17 08:49:00
-75,(08) 27405-9624,Assunção Nerg,American Eagle Outfitters,whiffled2067@gmail.com,115,Sinimbu,Minas Gerais,2001-08-08 00:18:00
-89,+55-91 6364-5106,Dinarta Cancian,Desert Garden Help,bardsley1972@yahoo.com,100,Paulo Bento,Piauí,2032-02-11 01:45:00
-67,(93) 6733-5343,Xisto Caldo,A+ Investments,bhima1947@yahoo.com,123,Jaguaruna,Sergipe,2031-11-18 19:37:00
-91,(37) 95039-3878,Rafaelo Magri,Zune,edsel1858@yandex.com,203,Matina,Santa Catarina,2025-12-31 03:30:00
-52,+55 (23) 2381-2194,Miro Hostey,Specific Appraisals,dungs1803@gmail.com,221,São Lourenço,Bahia,2008-04-09 02:44:00
-70,(53) 34303-0103,Maria Leonor Tonon,U.S. Steel,rajarshi1814@yahoo.com,66,Crixás,Espírito Santo,2008-07-19 01:23:00
-96,+55-21 2684-0211,Ionara Botteon,Amgen,crumby1982@gmail.com,142,Utinga,Sergipe,2008-12-24 14:50:00
-72,+55 (64) 7011-4215,Ercília Antunes,Grupo Guararapes,beograd1879@yandex.com,28,Neópolis,Acre,2032-05-26 03:20:00
-79,+55 (22) 9841-8516,Sandrino Rugero,Best Buy,glomerate1814@yandex.com,183,Itamarandiba,Rondônia,2008-08-15 12:35:00
-58,(86) 55841-4796,Sadrudine Werner,Transmissão Paulista	Utilitários,gruesome1926@outlook.com,62,Ibirarema,Pernambuco,2032-08-14 18:56:00
-77,+55-21 6273-0657,Judá Barreira,Atlas Realty,carburant1960@live.com,75,Santa Bárbara do Leste,Sergipe,2030-09-05 18:13:00
-86,(53) 44839-2782,Inocência Gonçalves,Road Runner Lawn Services,drover1988@outlook.com,69,Grajaú,Goiás,2011-09-08 16:28:00
-88,+55-21 0008-6953,Crisante Fabis,Albertsons LLC,allocatur1803@outlook.com,115,Coroaci,Paraíba,2014-02-13 21:46:00
-83,+55 (91) 0850-0904,Nazário Villa Nova,The Happy Bear,biomagnetic2065@yandex.com,176,Taguaí,Roraima,2025-04-18 07:20:00
-93,+55 (67) 1313-9380,Berardo Mathias,Global Insight,tonic1904@gmail.com,178,São João do Ivaí,Sergipe,2021-06-18 18:07:00
-98,(61) 6243-3406,Tomás de Albernaz,Deere & Company,subfusc1851@outlook.com,128,Maravilhas,Espírito Santo,2017-03-27 17:54:00
-74,+55-21 6520-7435,Bela Teganhe,Gerdau,pneumatotactic1865@yandex.com,222,Ibertioga,Espírito Santo,2031-04-06 07:58:00
-78,+55-21 2329-6266,Viveque Majeveski,Bob's	Restaurantes,caron1934@gmail.com,190,Relvado,Distrito Federal,2004-09-30 17:25:00
-55,(81) 89974-9140,Apolo Valiatti,Air Products & Chemicals,madames1894@yandex.com,12,Amaturá,Paraíba,2035-05-06 09:45:00
-90,+55-21 2257-6488,Marita Lunz,Fender Musical Instruments Corporation,brocade1887@gmail.com,50,Água Fria,Piauí,2002-09-17 09:04:00
-84,+55-21 2096-4455,Elvira Almeida,Destiny Realty Solutions,unliberally2054@live.com,129,Foz do Jordão,Tocantins,2024-08-21 20:33:00
-65,(91) 51646-6219,Estélio Mendonça,Airgas,absit2030@live.com,114,Chácara,Paraíba,2016-06-21 04:45:00
-63,+55-21 0856-0429,Tenório Marinato,Aleris International,larcenies1933@yandex.com,106,Santo Antônio do Amparo,Goiás,2020-05-10 23:51:00
-59,+55-21 4908-4251,Aurélia Bozi,Laserfiche,dunder1833@live.com,97,Curralinho,Alagoas,2001-11-28 20:53:00
-69,(56) 59564-4620,Jonas Sossai,Netcom Business Services,cigua2067@live.com,209,Agudos do Sul,São Paulo,2030-01-10 17:00:00
-68,+55 (67) 2694-1021,Cassiano Camporês,Universo Online,severality1939@yahoo.com,149,Setubinha,Distrito Federal,2030-07-03 10:10:00
-73,+55-91 5250-7029,Brice Cavallina,Estrela	Brinquedos,edenize1839@gmail.com,37,Jaraguari,Bahia,2021-12-30 06:53:00
-64,+55-91 5434-4854,Alívio Marotto,Midway Games,replenished1871@gmail.com,29,Aliança do Tocantins,Pará,2013-11-08 20:29:00
-87,+55-91 4043-2634,Alexa Bassetti,Mars Incorporated,homologoumena1872@outlook.com,145,Pinhal da Serra,Rio Grande do Norte,2013-08-10 01:49:00
-99,+55-21 5341-2837,Djalme de Faria,Banco Mercantil do Brasil,demur1940@yahoo.com,120,Camanducaia,Sergipe,2026-03-10 14:29:00
-95,(80) 84041-1778,Eduardo de Albergaria,Signa Air,peatery1878@live.com,38,Redenção do Gurguéia,Sergipe,2013-01-26 13:16:00
-56,+55-91 7240-7607,Liberto Batista,Positivo Informática,article2004@yandex.com,87,Conceição do Castelo,Piauí,2020-12-13 21:46:00
-85,+55-21 7031-8258,de Assis Grolla,Smith and Company,pantheistical1837@live.com,221,Serra Redonda,Alagoas,2005-03-04 19:30:00
-100,(26) 2086-3651,Átila Kiefer,Brunswick Corporation,paradise1834@outlook.com,86,Tapes,Amazonas,2010-11-23 06:31:00
-81,+55-91 7699-3377,Válter Brancaglioni,Alaska Air Group,plovers2005@gmail.com,120,Santo Amaro das Brotas,Rio Grande do Sul,2017-07-31 23:50:00
-82,+55 (95) 9860-8897,Miraldina Jonsson,Dun Rite Lawn Care,nonrefutation1926@outlook.com,123,Chácara,Ceará,2000-04-17 07:30:00
-97,(45) 12494-0110,Oscarina Scoot,Dominion Resources,eriksson1898@outlook.com,77,Uibaí,Acre,2015-01-16 21:42:00
+16,+55-21 4551-3445,Vanessa Madureira,Tesla Motors,prisons1803@live.com,82,Imbé,Paraíba,2007-03-20 18:24:00
+12,+55 (97) 2906-9822,Pilar Brogan,Omni Source,shortcake1852@yahoo.com,213,Felisburgo,Sergipe,2006-08-15 08:43:00
+15,+55-21 6905-0406,Pracídio Kuiger,VonMaur,shou2014@yahoo.com,221,São Leopoldo,Distrito Federal,2020-11-03 20:59:00
+13,(91) 8920-1810,Maide de São Thomé,Vivitar,fermentitious1965@outlook.com,176,Antônio Carlos,Pará,2030-01-25 04:06:00
+14,+55-21 2421-1621,Iriana Carriço,Quickbiz,cequi2026@outlook.com,135,Bom Jardim de Goiás,Amapá,2009-01-14 00:04:00
+18,(91) 8920-1810,Maide de São Thomé,Vivitar,fermentitious1965@outlook.com,176,Antônio Carlos,Pará,2030-01-25 04:06:00
+21,+55-21 4551-3445,Vanessa Madureira,Tesla Motors,prisons1803@live.com,82,Imbé,Paraíba,2007-03-20 18:24:00
+17,+55 (97) 2906-9822,Pilar Brogan,Omni Source,shortcake1852@yahoo.com,213,Felisburgo,Sergipe,2006-08-15 08:43:00
+20,+55-21 6905-0406,Pracídio Kuiger,VonMaur,shou2014@yahoo.com,221,São Leopoldo,Distrito Federal,2020-11-03 20:59:00
+19,+55-21 2421-1621,Iriana Carriço,Quickbiz,cequi2026@outlook.com,135,Bom Jardim de Goiás,Amapá,2009-01-14 00:04:00

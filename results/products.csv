@@ -1,21 +1,21 @@
 product_id,name,category_id,weight,price,description,supplier_id,barcode
-1,Cunquate,3,177.0180178854146,7.376883086819259,food food food food food food food food food food food food food food food food food,6,70766399
-5,Tartare De Peixe,1,118.46309440240344,2.850085683732937,food food food food food food food food food food food food food food food food food,47,09135106
-4,Melo Abreu Especial,2,55.060053031463994,0.8337991259308408,food food food food food food food food food food food food food food food food food,31,47154243
-7,Zarco,2,720.4357799864789,7.009954637113173,food food food food food food food food food food food food food food food food food,93,51143943
-6,cherivia,5,237.47172468409084,9.54063206136649,food food food food food food food food food food food food food food food food food,32,75315501
-9,Tagus,2,491.4132513769086,2.3424898676222328,food food food food food food food food food food food food food food food food food,51,80532390
-8,Salsinha,4,998.3736755015416,9.297543514428137,food food food food food food food food food food food food food food food food food,14,36736918
-3,Batata,5,580.8125472657091,7.349507666611822,food food food food food food food food food food food food food food food food food,59,3055393093685
-10,Amora,3,953.5453210514178,5.011921548720958,food food food food food food food food food food food food food food food food food,91,60508499
-2,Queijo De Búfala,1,81.52906732422505,3.4595684905910407,food food food food food food food food food food food food food food food food food,17,0607318665805
-18,Salsinha,4,513.290653313805,2.2430291411654277,food food food food food food food food food food food food food food food food food,14,36736918
-16,cherivia,5,961.6687445978556,2.3770473964436754,food food food food food food food food food food food food food food food food food,32,75315501
-13,Batata,5,960.5559485139755,1.1063332905522327,food food food food food food food food food food food food food food food food food,59,3055393093685
-17,Zarco,2,96.95241621233485,2.3830008251692556,food food food food food food food food food food food food food food food food food,93,51143943
-11,Cunquate,3,437.0004826936571,1.7953808833819362,food food food food food food food food food food food food food food food food food,6,70766399
-15,Tartare De Peixe,1,140.46141781251808,0.3590701217605008,food food food food food food food food food food food food food food food food food,47,09135106
-12,Queijo De Búfala,1,439.2124595024217,8.06703408310934,food food food food food food food food food food food food food food food food food,17,0607318665805
-20,Amora,3,174.73033971594765,4.8714208115839694,food food food food food food food food food food food food food food food food food,91,60508499
-19,Tagus,2,684.9419124861226,4.071238759745585,food food food food food food food food food food food food food food food food food,51,80532390
-14,Melo Abreu Especial,2,794.7813996271125,2.722061329438489,food food food food food food food food food food food food food food food food food,31,47154243
+6,Tartare De Peixe,1,92.20898090592821,0.0802005830126562,food food food food food food food food food food food food food food food food food,1,75315501
+1,Páprica,4,943.5823112495927,5.916783522058454,food food food food food food food food food food food food food food food food food,1,70766399
+3,Mandioca,5,647.7075343343786,2.323159827499881,food food food food food food food food food food food food food food food food food,1,3055393093685
+10,Coalhada,1,248.79788497247347,9.301137641080391,food food food food food food food food food food food food food food food food food,1,60508499
+9,Canela,4,429.2040344672924,0.20703940855130165,food food food food food food food food food food food food food food food food food,1,80532390
+4,Jujuba,3,294.52518944588945,8.400614185542382,food food food food food food food food food food food food food food food food food,1,47154243
+8,Uva,3,676.2578871077019,5.594729862390045,food food food food food food food food food food food food food food food food food,1,36736918
+2,Onix,2,871.1385804955102,2.6690719535502874,food food food food food food food food food food food food food food food food food,1,0607318665805
+5,Melo Abreu Especial,2,372.85237034633735,2.8650612612828983,food food food food food food food food food food food food food food food food food,1,09135106
+7,Salsão,4,810.3595422040911,7.275142098392145,food food food food food food food food food food food food food food food food food,1,51143943
+19,Canela,4,938.45893155624,6.999240160878342,food food food food food food food food food food food food food food food food food,1,80532390
+18,Uva,3,199.4293707755973,7.207669182762926,food food food food food food food food food food food food food food food food food,1,36736918
+20,Coalhada,1,358.74895603609514,8.122187445804022,food food food food food food food food food food food food food food food food food,1,60508499
+16,Tartare De Peixe,1,399.67002212477854,0.16871197196130727,food food food food food food food food food food food food food food food food food,1,75315501
+11,Páprica,4,415.05124634996724,2.8695704056935,food food food food food food food food food food food food food food food food food,1,70766399
+17,Salsão,4,829.391057563175,1.2371099262707463,food food food food food food food food food food food food food food food food food,1,51143943
+15,Melo Abreu Especial,2,568.8699332395161,7.167947095548096,food food food food food food food food food food food food food food food food food,1,09135106
+13,Mandioca,5,332.899755732311,0.706187483621854,food food food food food food food food food food food food food food food food food,1,3055393093685
+12,Onix,2,777.5443235698219,5.5909851472257746,food food food food food food food food food food food food food food food food food,1,0607318665805
+14,Jujuba,3,510.6365815998799,1.2223672822654619,food food food food food food food food food food food food food food food food food,1,47154243

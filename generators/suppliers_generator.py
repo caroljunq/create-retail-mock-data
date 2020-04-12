@@ -12,7 +12,6 @@ with open('../config.json') as data:
 
 # setting up variables
 machine_cores = int(config["n_cores"])
-header_in_csv = True if config["header_in_csv"] == "True" else False
 out_path = config["output_path_files"]
 index_supplier_start = config["suppliers"]["index_start"]
 outfile = config["suppliers"]["outfile"]
@@ -96,9 +95,7 @@ df = pd.DataFrame(suppliers)
 columns_names = ["supplier_id","phone_number","responsible_name","title","email","country_id","city","state","register_date"]
 
 print("Saving file...")
-# Defining if header will be included
-header = False if header_in_csv == False else columns_names
 
 # writing file
-f = df.to_csv(out_path + outfile,header=header,sep=",",index=False)
+f = df.to_csv(out_path + outfile,header=columns_names,sep=",",index=False)
 print("File was saved at path {}".format(out_path + outfile))

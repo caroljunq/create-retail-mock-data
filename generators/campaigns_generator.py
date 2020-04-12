@@ -13,7 +13,6 @@ index_payment_start = config["campaigns"]["index_start"]
 outfile = config["campaigns"]["outfile"]
 language = config["language"]
 campaigns = config[language]["campaigns"]
-header_in_csv = True if config["header_in_csv"] == "True" else False
 outsize = len(campaigns)
 
 camps = []
@@ -31,9 +30,7 @@ df = pd.DataFrame(camps)
 columns_names = ["campaign_id","title","discount"]
 
 print("Saving file...")
-# Defining if header will be included
-header = False if header_in_csv == False else columns_names
 
 # writing file
-f = df.to_csv(out_path + outfile,header=header,sep=",",index=False)
+f = df.to_csv(out_path + outfile,header=columns_names,sep=",",index=False)
 print("File was saved at path {}".format(out_path + outfile))

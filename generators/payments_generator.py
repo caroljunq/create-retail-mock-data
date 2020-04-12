@@ -12,7 +12,6 @@ index_payment_start = config["payments"]["index_start"]
 outfile = config["payments"]["outfile"]
 language = config["language"]
 payments = config[language]["payments"]
-header_in_csv = True if config["header_in_csv"] == "True" else False
 outsize = len(payments)
 
 payms = []
@@ -29,11 +28,9 @@ df = pd.DataFrame(payms)
 columns_names = ["payment_id","title","description"]
 
 print("Saving file...")
-# Defining if header will be included
-header = False if header_in_csv == False else columns_names
 
 # writing file
-f = df.to_csv(out_path + outfile,header=header,sep=",",index=False)
+f = df.to_csv(out_path + outfile,header=columns_names,sep=",",index=False)
 print("File was saved at path {}".format(out_path + outfile))
 
 

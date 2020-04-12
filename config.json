@@ -1,7 +1,7 @@
 {
   "n_cores": 2,
   "output_path_files": "../results/",
-  "header_in_csv": "False",
+  "header_in_csv": "True",
   "data_processing":{
     "amount_in_cpu": 1000,
     "auto_batch_based_in_cpu":"True"
@@ -15,12 +15,16 @@
     "joined_start_date": "2016-1-1 00:00:00",
     "joined_end_date": "2018-12-31 23:59:59"
   },
-  "campaigns": 10,
+  "campaigns": {
+    "index_start": 1,
+    "outfile": "campaigns.csv"
+  },
   "payments": {
+    "index_start": 1,
     "outfile": "payments.csv"
   },
   "products": {
-    "index_start": 1000,
+    "index_start": 1,
     "total": 20,
     "outfile": "products.csv"
   },
@@ -37,13 +41,15 @@
     "total": 100,
     "outfile": "suppliers.csv"
   },
-  "language": "en",
+  "language": "pt-br",
   "en": {
     "genders": ["Female","Male","Fluid","Others"],
-    "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"]
+    "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"],
+    "campaigns": ["Spring1","Mother's Day1","Father's Day","Black Friday","Christmas1","Spring2","Autumn","Mother's Day2","Natal2"]
   },
   "pt-br":{
     "genders": ["Feminino","Masculino","Fluido","Outros"],
-    "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"]
+    "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"],
+    "campaigns": ["Primavera1","Dia das Mães1","Dia dos Pais","Black Friday","Natal1","Primavera2","Outono","Dia das Mães2","Natal2"]
   }
 }

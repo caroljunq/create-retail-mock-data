@@ -37,8 +37,6 @@ def generate_suppliers(amount,index_start):
     # amount: number of suppliers to generate
     # index_start: from what index starts
 
-    global suppliers
-
     results = set()
 
     for i in range(amount):

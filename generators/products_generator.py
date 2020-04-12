@@ -45,8 +45,6 @@ def generate_products(amount,index_start):
     # amount: number of products to generate
     # index_start: from what index starts
 
-    global products
-
     results = set()
 
     for i in range(amount):

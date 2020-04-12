@@ -37,8 +37,6 @@ def generate_shippers(amount,index_start):
     # amount: number of shippers to generate
     # index_start: from what index starts
 
-    global shippers
-
     results = set()
 
     for i in range(amount):

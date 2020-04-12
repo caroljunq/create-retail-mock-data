@@ -46,7 +46,6 @@ clickstream = []
 
 def generate_clickstream(amount):
     # Generates no succeed clicks
-    global clickstream
 
     results = []
 

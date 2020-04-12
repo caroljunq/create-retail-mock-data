@@ -44,11 +44,15 @@
     "outfile": "clickstream-succeed.csv"
   },
   "orders":{
-    "total": 10000,
+    "total": 100,
     "order_start_date":"2017-1-1 00:00:00",
     "order_end_date":"2018-12-31 23:59:59",
     "outfile": "orders.csv",
     "percentage_no_campaign": 0.5
+  },
+  "orders_items":{
+    "outfile": "orders_items.csv",
+    "number_max_prod_per_order": 2
   },
   "language": "pt-br",
   "media":{

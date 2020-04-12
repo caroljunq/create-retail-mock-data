@@ -48,7 +48,6 @@ def generate_customers(amount,index_start):
     # generates customers' info
     # amount: number of customer to generate
     # index_start: from what index starts
-    global customers
 
     results = set()
     for i in range(amount):

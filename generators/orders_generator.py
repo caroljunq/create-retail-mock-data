@@ -58,7 +58,6 @@ orders = []
 
 def generate_orders(amount, index_start):
     # generate orders
-    global orders
 
     # saves intermediary results
     results = set()

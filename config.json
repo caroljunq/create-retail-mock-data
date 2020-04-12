@@ -7,7 +7,7 @@
   },
   "customers": {
     "index_start": 1,
-    "total": 1000,
+    "total": 100,
     "outfile": "customers.csv",
     "min_age": 18,
     "max_age": 72,
@@ -36,12 +36,12 @@
     "outfile": "prod_categories.csv"
   },
   "suppliers": {
-    "index_start": 113,
-    "total": 5,
+    "index_start": 1,
+    "total": 10,
     "outfile": "suppliers.csv"
   },
   "clickstream":{
-    "total": 1000,
+    "total": 100,
     "outfile": "clickstream.csv",
     "click_start_date": "2016-1-1 00:00:00",
     "click_end_date": "2018-12-31 23:59:59"
@@ -54,11 +54,11 @@
   "en": {
     "genders": ["Female","Male","Fluid","Others"],
     "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"],
-    "campaigns": ["Spring1","Mother's Day1","Father's Day","Black Friday","Christmas1","Spring2","Autumn","Mother's Day2","Natal2"],
+    "campaigns": ["Spring1","Mother's Day1","Father's Day","Black Friday","Christmas1","Spring2","Autumn","Mother's Day2","Natal2"]
   },
   "pt-br":{
     "genders": ["Feminino","Masculino","Fluido","Outros"],
     "payments": ["Cash","Aura Cabal","American Express","Diners Club","Discover","Visa","Hpercard","Elo","Mastercard"],
-    "campaigns": ["Primavera1","Dia das Mães1","Dia dos Pais","Black Friday","Natal1","Primavera2","Outono","Dia das Mães2","Natal2"],
+    "campaigns": ["Primavera1","Dia das Mães1","Dia dos Pais","Black Friday","Natal1","Primavera2","Outono","Dia das Mães2","Natal2"]
   }
 }

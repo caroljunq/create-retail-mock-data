@@ -48,7 +48,7 @@ campaigns_prob = common_functions.random_probabilities(1,n_campaings)
 clickstream = []
 
 def generate_clickstream(amount):
-    # Generates clickstream info
+    # Generates no succeed clicks
     global clickstream
 
     results = []

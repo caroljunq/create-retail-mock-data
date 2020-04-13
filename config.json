@@ -1,9 +1,15 @@
 {
   "n_cores": 2,
   "output_path_files": "../results/",
+  "language": "en",
   "data_processing":{
     "amount_in_cpu": 1000,
     "auto_batch_based_in_cpu":"True"
+  },
+  "apache_logs":{
+    "total": 1000,
+    "log_start_date": "2016-1-1 00:00:00",
+    "log_end_date": "2018-12-31 23:59:59"
   },
   "customers": {
     "total": 100,
@@ -54,7 +60,6 @@
     "outfile": "orders_items.csv",
     "number_max_prod_per_order": 2
   },
-  "language": "en",
   "media":{
     "_comments": "All percentages must sum 1",
     "sources": ["Twitter", "E-mail", "Facebook", "Website-ads","Youtube"],

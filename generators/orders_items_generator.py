@@ -43,6 +43,7 @@ quantities = list(range(1,number_max_prod_per_order + 1))
 # Global orders items and clickstrem succeed array
 orders_items = []
 clickstream_succeed = []
+ids = set()
 
 def generate_orders_items(amount, index_start):
     # generates orders items and succeed clickstream
@@ -50,16 +51,16 @@ def generate_orders_items(amount, index_start):
     orders_items_partial = []
     clickstream_succeed_partial = []
 
-    print(index_start)
     for i in range(amount):
-        order_id = orders["order_id"][i]
-        customer_id = orders["customer_id"][i]
-        order_date = orders["order_date"][i]
-        campaign_id = orders["campaign_id"][i]
-        media_source = orders["media_source"][i]
+        index = index_start + i - 1
+        order_id = orders["order_id"][index]
+        customer_id = orders["customer_id"][index]
+        order_date = orders["order_date"][index]
+        campaign_id = orders["campaign_id"][index]
+        media_source = orders["media_source"][index]
         num_products = np.random.choice(quantities, p=num_products_prob)  
         for _ in range(num_products):
-            quantity = round(random.uniform(0,100),2) # random number between 0 and 100 rounded 2 decimals
+            quantity = random.randint(1,100) # random quantity, between 1 and 100 products
             
             product_id = random.randint(1,n_products)
     

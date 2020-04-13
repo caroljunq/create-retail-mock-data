@@ -20,7 +20,7 @@
     "outfile": "payments.csv"
   },
   "products": {
-    "total": 20,
+    "total": 100,
     "outfile": "products.csv"
   },
   "shippers": {
@@ -35,7 +35,7 @@
     "outfile": "suppliers.csv"
   },
   "clickstream_no_succeed":{
-    "total": 100,
+    "total": 1000,
     "outfile": "clickstream-no-succeed.csv",
     "click_start_date": "2016-1-1 00:00:00",
     "click_end_date": "2018-12-31 23:59:59"
@@ -44,7 +44,7 @@
     "outfile": "clickstream-succeed.csv"
   },
   "orders":{
-    "total": 100,
+    "total": 1000,
     "order_start_date":"2017-1-1 00:00:00",
     "order_end_date":"2018-12-31 23:59:59",
     "outfile": "orders.csv",
@@ -54,7 +54,7 @@
     "outfile": "orders_items.csv",
     "number_max_prod_per_order": 2
   },
-  "language": "pt-br",
+  "language": "en",
   "media":{
     "_comments": "All percentages must sum 1",
     "sources": ["Twitter", "E-mail", "Facebook", "Website-ads","Youtube"],

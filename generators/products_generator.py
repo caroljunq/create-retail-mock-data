@@ -69,7 +69,7 @@ def generate_products(amount,index_start):
         weight = random.random() * 1000
         price = random.random() * 10
         description = "food food food food food food food food food food food food food food food food food"
-        supplier_id = 1
+        supplier_id = np.random.choice(supplier_id_range, p=suppliers_prob)
         barcode = code.ean()
 
         results.add((product_id,name,category_id,weight,price,description,supplier_id,barcode))

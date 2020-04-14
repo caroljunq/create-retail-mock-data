@@ -12,7 +12,7 @@
     "log_end_date": "2018-12-31 23:59:59"
   },
   "customers": {
-    "total": 3000,
+    "total": 1000,
     "outfile": "customers.csv",
     "min_age": 18,
     "max_age": 65,
@@ -26,22 +26,22 @@
     "outfile": "payments.csv"
   },
   "products": {
-    "total": 4000,
+    "total": 2000,
     "outfile": "products.csv"
   },
   "shippers": {
-    "total": 1000,
+    "total": 600,
     "outfile": "shippers.csv"
   },
   "categories": {
     "outfile": "prod_categories.csv"
   },
   "suppliers": {
-    "total": 1000,
+    "total": 600,
     "outfile": "suppliers.csv"
   },
   "clickstream_no_succeed":{
-    "total": 500000,
+    "total": 60000,
     "outfile": "clickstream-no-succeed.csv",
     "click_start_date": "2017-1-1 00:00:00",
     "click_end_date": "2018-12-31 23:59:59"
@@ -51,7 +51,7 @@
   },
   "joined_clickstream_file": "clickstream.csv",
   "orders":{
-    "total": 300000,
+    "total": 50000,
     "order_start_date":"2017-1-1 00:00:00",
     "order_end_date":"2018-12-31 23:59:59",
     "outfile": "orders.csv",

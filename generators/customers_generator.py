@@ -23,7 +23,8 @@ max_age = config["customers"]["max_age"]
 min_age = config["customers"]["min_age"]
 joined_start_date = config["customers"]["joined_start_date"]
 joined_end_date = config["customers"]["joined_end_date"]
-genders = config[language]["genders"]
+genders = config["genders"][language]
+gender_prob = config["genders"]["percentages"]
 
 # data processing config
 amounts_cpu = config["data_processing"]["amount_in_cpu"]
@@ -39,7 +40,6 @@ dates = mimesis.Datetime(language)
 # 245 countries
 country_prob = common_functions.random_probabilities(1,245)
 ages_probab  = common_functions.random_probabilities(min_age, max_age)
-gender_prob = common_functions.random_probabilities(1,len(genders))
 
 # Global customers array
 customers = []

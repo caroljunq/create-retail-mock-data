@@ -117,8 +117,14 @@ columns_clickstream = ["customer_id","order_date","campaign_id","media_source","
 
 print("Saving files...")
 
+# starts line_id from 1
+df_orders_items.index += 1
+
+# naming first column
+df_orders_items.index.name = "line_id"
+
 # writing file
-df_orders_items.to_csv(out_path + outfile, header=columns_orders_items,sep=",",index=False)
+df_orders_items.to_csv(out_path + outfile, header=columns_orders_items,sep=",",index=True)
 df_clickstream_succeed.to_csv(out_path + clickstream_outfile,header=columns_clickstream,sep=",",index=False)
 
 print("File 1 was saved at path {}".format(out_path + outfile))

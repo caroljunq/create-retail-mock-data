@@ -22,6 +22,9 @@ for i in range(outsize):
     discount = round(random.uniform(0.1, 0.5),2)
     camps.append((campaign_id,campaigns[i],discount))
 
+# adding "no campaign"
+camps.append((0,"None",0))
+
 # creating a data frame with the final results
 df = pd.DataFrame(camps)
 

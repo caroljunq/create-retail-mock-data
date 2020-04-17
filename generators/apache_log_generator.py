@@ -170,7 +170,7 @@ for i in range(n_logs):
     print(log)
 
     # response = firehose.put_record(
-    #     DeliveryStreamName='clickstream',
+    #     DeliveryStreamName='retail-delivery-stream',
     #     Record={
     #         'Data': log
     #      }

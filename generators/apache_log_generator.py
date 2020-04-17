@@ -6,9 +6,6 @@ import mimesis
 import json
 import boto3
 
-
-# firehose = boto3.client('firehose',region_name='us-east-1')
-
 # reading config
 with open('../config.json') as data:
     config = json.load(data)

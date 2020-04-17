@@ -8,6 +8,7 @@
   },
   "apache_logs":{
     "total": 1000,
+    "outfile": "apache-logs.txt",
     "log_start_date": "2016-1-1 00:00:00",
     "log_end_date": "2018-12-31 23:59:59"
   },

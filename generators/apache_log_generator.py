@@ -158,6 +158,9 @@ logs_headers = [
 log_size = len(logs_headers)
 print("Initializing...")
 
+
+# firehose = boto3.client('firehose',region_name="us-east-1")
+
 for i in range(n_logs):	
     customer_id = random.randint(1,n_customers)
     order_date = common_functions.random_date(log_start_date,log_end_date,random.random())
